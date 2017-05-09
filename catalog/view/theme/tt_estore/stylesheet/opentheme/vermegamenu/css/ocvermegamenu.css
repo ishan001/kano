@@ -1,0 +1,278 @@
+/** ver megamenu **/
+.vermagemenu{
+	position: relative;
+	z-index: 1;
+}
+.over-menu { display: none; }
+.close-wrap i,
+.more-wrap i{
+    margin-right:10px;
+	display: none;
+}
+.close-wrap a,
+.more-wrap a{
+    border-bottom: none!important;
+    color: #3c74b9 !important;
+    font-weight: 700 !important;
+	padding-bottom: 5px !important;
+	font-size: 13px !important;
+	text-transform: uppercase !important;
+}
+.more-wrap{
+	border: none !important;
+}
+.close-wrap a:hover,
+.more-wrap a:hover{
+    
+    
+}
+.content-vermagemenu > h2 i{
+	margin-right: 20px;
+	font-size: 14px;
+}
+.content-vermagemenu > h2.no-padding{
+	padding-bottom: 0;
+	background: none;
+}
+.content-vermagemenu > h2{
+	color: #313131;
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 700;
+	background: url(../images/bg-title.png) repeat-x bottom center;
+	padding-bottom: 20px;
+	cursor: pointer;
+}
+.common-home .content-vermagemenu.small-padding,
+.content-vermagemenu{
+	border: 5px solid #ebebeb;
+	padding: 20px;
+	
+	background: #fff;
+	
+}
+.content-vermagemenu.small-padding{
+	padding: 17px 20px;
+	border-bottom: 5px solid #ebebeb;
+}
+.common-home .content-vermagemenu{
+	border-bottom: transparent;
+	padding-bottom: 0;
+}
+.common-home .navleft-container{
+	position: absolute;
+	padding: 0 20px 20px;
+	border: 5px solid #ebebeb;
+	border-top: transparent;
+}
+.navleft-container{    
+    font-size:14px;
+    width: 100%;	
+	top: 60px;
+	left: 0;	
+	background: #fff;
+}
+.pt_vmegamenu{margin:0px}
+.pt_vmegamenu div.pt_ver_menu.active{background:none!important}
+.pt_vmegamenu .parentMenu .parentMenu a span{font-size:15px!important}
+#pt_vmegamenu{margin-bottom: 0;padding-bottom:0;padding-top:0}
+.pt_vmegamenu .parentMenu a img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-right: 1px solid #dedede;
+	display: inline-block;
+}
+.pt_vmegamenu .parentMenu a{
+    text-decoration: none;
+	display: block;
+	line-height: 20px;
+	text-transform: capitalize;
+	word-wrap: break-word;
+	color: #6f6f6f;
+	font-size: 14px;
+	padding: 21px 0px;
+	position: relative;
+	text-align: left;
+}
+.pt_ver_menu.act .parentMenu a,
+.pt_vmegamenu .parentMenu a:hover{
+	color: #3c74b9;
+}
+.pt_vmegamenu .pt_ver_menu:last-child .parentMenu a:last-child{border:none;}
+/*.pt_vmegamenu div.pt_ver_menu_no_child .parentMenu a{background: none!important;}*/
+.pt_vmegamenu div.had-child .parentMenu a::after{
+    content: "";
+	background: url("../images/arrow-menu.png") no-repeat 0 0;
+	font-family: FontAwesome;
+	display: inline-block;
+	vertical-align: top;
+	position: absolute;
+	right: 15px;
+	top: 24px;
+	width: 15px;
+	height: 15px;
+	display: none;
+}
+.pt_vmegamenu div.had-child .parentMenu a:hover::before{
+    color: #fff;
+}
+/*#pt_vmegamenu .pt_ver_menu{
+    padding: 10px 0;
+}*/
+#pt_vmegamenu > .pt_ver_menu:last-child{
+	border: none;
+}
+#pt_vmegamenu > .pt_ver_menu{
+	border-bottom: 1px solid #f1f1f1;
+}
+#pt_vmegamenu .pt_ver_menu,
+#pt_vmegamenu .pt_ver_menu .parentMenu{
+	width:100%;
+	position: relative;
+}
+.pt_vmegamenu .pt_ver_menu .popup{
+    border:none;
+    padding: 0px;
+    position: absolute;
+    left: 100%;
+    text-align: left;
+    z-index: 3000 !important;
+    background: #fff!important;
+	top: 0;
+}
+.pt_vmegamenu div.column {
+    width: 170px!important;
+}
+.pt_vmegamenu .pt_ver_menu .popup .content-popup{
+    float: left;
+    box-shadow: none;
+    border-radius: 0;
+    color: #fff;
+    padding: 20px;
+	border: 1px solid #e5e5e5;
+	background: #fff;
+}
+.pt_vmegamenu div.popup a.act{color:#333;}
+.vermagemenu .block1 .column{padding-bottom:0!important; margin-bottom:0px!important}
+.vermagemenu .block1 .column .itemMenu a.level0:hover{
+	color: #3c74b9;
+}
+.vermagemenu .block1 .column .itemMenu a.level0{
+    font-size: 14px;
+	font-weight: 700;
+	text-transform: capitalize;
+	word-wrap: break-word;
+	color: #444444;
+	margin-bottom: 15px;
+	display: block;
+}
+.vermagemenu  .block1 .column .itemMenu a.level0.actParent{
+    
+}
+.vermagemenu .block1 .column .itemMenu a.level0.actParent span{
+}
+.vermagemenu .block1 .column .itemSubMenu a.level0{background:none}
+.pt_vmegamenu div.column{
+    border:none!important;
+    margin:0 15px 0 0!important;
+    padding:0px!important;
+    float:left;
+}
+.pt_vmegamenu div.column.last{
+    margin-right:0px!important;
+}
+.pt_vmegamenu div.column.blockright{
+    width:150px;
+    text-align: center;
+    margin-right:0!important;
+}
+.vermagemenu .popup .block1{
+    float:left;
+}
+.pt_vmegamenu div.itemSubMenu {
+    margin: 20px 0!important;
+}
+.vermagemenu .block1 .itemSubMenu .itemMenu a.itemMenuName{
+    line-height:28px;
+    font-weight: normal;
+    line-height: 35px;
+    font-size: 12px;
+    text-transform: capitalize;
+	margin: 0;
+}
+.vermagemenu .block1 .itemSubMenu .itemMenu a.itemMenuName:hover{
+    color: #3c74b9 !important;
+}
+.vermagemenu a.itemMenuName:hover{
+    color: #3c74b9 !important;
+    
+}
+.navleft-container .thumbnail_image{
+    background: #797979;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.title-vetical{
+	background: #3c74b9;
+	position: relative;
+	padding: 18px 0px 13px 20px;
+}
+.title-vetical h2 span{
+    font-size: 20px;
+    text-transform: capitalize;
+    width: 100%;
+    display: block;
+    margin-top: 3px;
+}
+.title-vetical{
+	cursor: pointer;
+}
+.title-vetical h2{
+    font-size: 11px;
+    color: #fff;
+    margin: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 45px;	
+}
+.title-vetical i:last-of-type{
+	right: 5px;
+	top: 22px;
+}
+.title-vetical i:first-of-type{
+	left: 25px;
+	top: 25px;
+}
+.title-vetical i{
+	color: #fff;
+	position: absolute;
+	font-size: 19px;
+	margin-right: 10px;
+}
+/** /ver megamenu **/
+/* responsive */
+@media(max-width: 1024px){
+	.title-vetical h2 span{
+		font-size: 15px;
+	}
+	.title-vetical h2{
+		padding-left: 30px;
+	}
+	.title-vetical{
+		padding: 18px 0 18px 10px
+	}
+	.title-vetical i:first-of-type {
+		left: 10px;
+	}
+	.pt_vmegamenu .parentMenu a{
+		padding: 15px 0;
+	}
+}
+@media(max-width: 991px){
+	.pt_vmegamenu .parentMenu a{
+		padding: 15px 0;
+	}
+}

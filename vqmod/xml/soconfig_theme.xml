@@ -1,0 +1,325 @@
+<modification>
+	<id><![CDATA[soconfig theme]]></id>
+	<version><![CDATA[1.0]]></version>
+	<vqmver><![CDATA[2.X]]></vqmver>
+	<author><![CDATA[Magentech - Magentech.com]]></author>
+	<file name="catalog/controller/common/home.php">
+		<operation error="log" info="Add New Position For Home page ">
+			<search position="before"><![CDATA[$data['column_left'] = $this->load->controller('common/column_left');]]></search>
+			<add><![CDATA[
+			$data['content_block1'] = $this->load->controller('common/content_block1');
+			$data['content_block2'] = $this->load->controller('common/content_block2');
+			$data['content_block3'] = $this->load->controller('common/content_block3');
+			$data['content_block4'] = $this->load->controller('common/content_block4');
+			$data['content_block5'] = $this->load->controller('common/content_block5');
+			$data['content_search'] = $this->load->controller('common/content_search');
+			$data['content_topbar'] = $this->load->controller('common/content_topbar');
+			$data['content_menu'] = $this->load->controller('common/content_menu');
+			$data['content_footer'] = $this->load->controller('common/content_footer');
+			$data['footer_bottom'] = $this->load->controller('common/footer_bottom');
+		]]></add>
+		</operation>
+	</file>
+	<file name="catalog/controller/product/search.php">
+		<operation>
+			<search position="before"><![CDATA[$this->load->language('product/search');]]></search>
+			<add><![CDATA[		// cosyone custom code start
+			$this->load->language('common/soconfig');
+			$data['button_continue'] = $this->language->get('button_continue');
+			
+		]]></add>
+		</operation>		
+	</file>
+	<file name="catalog/controller/common/header.php">
+		<operation>
+			<search position="before"><![CDATA[$this->load->language('common/header');]]></search>
+			<add><![CDATA[		// cosyone custom code start
+			$this->load->language('common/soconfig');
+			$data['text_contact'] = $this->language->get('text_contact');
+			$data['text_more'] 	  = $this->language->get('text_more');
+			$data['text_menu'] 	  = $this->language->get('text_menu');
+			$data['hotline'] 	  = $this->language->get('hotline');
+			
+			$data['content_search'] = $this->load->controller('common/content_search');
+			$data['content_topbar'] = $this->load->controller('common/content_topbar');
+			$data['content_menu'] = $this->load->controller('common/content_menu');
+			$data['content_block1'] = $this->load->controller('common/content_block1');
+
+			// Cosyone ends
+		]]></add>
+		</operation>
+		<operation>
+			<search position="after"><![CDATA[$data['title'] = $this->document->getTitle();]]></search>
+			<add><![CDATA[
+				$this->document->addStyle('catalog/view/javascript/so_searchpro/css/so_searchpro.css'); 
+				$this->document->addStyle('catalog/view/javascript/so_megamenu/so_megamenu.css');
+				$this->document->addStyle('catalog/view/javascript/so_megamenu/wide-grid.css');
+				$this->document->addScript('catalog/view/javascript/jquery/accordion.js');
+				$this->document->addScript('catalog/view/javascript/so_megamenu/so_megamenu.js');
+				
+			]]></add>
+		</operation>	
+	</file>
+	
+	<file name="catalog/controller/common/footer.php">
+		<operation>
+			<search position="before"><![CDATA[$this->load->language('common/footer');]]></search>
+			<add><![CDATA[
+			$data['content_block4'] = $this->load->controller('common/content_block4');
+			$data['content_footer'] = $this->load->controller('common/content_footer');
+			$data['footer_bottom'] = $this->load->controller('common/footer_bottom');
+			$data['direction'] = $this->language->get('direction');
+		]]></add>
+		</operation>
+	</file>
+
+	
+	<file name="catalog/controller/common/cart.php">
+		<operation>
+			<search position="before"><![CDATA[$this->load->language('common/cart');]]></search>
+			<add><![CDATA[		// cosyone custom code start
+			$this->load->language('soconfig/cart');
+			
+			$data['text_shop'] 	  = $this->language->get('text_shop');
+			$data['text_shop_cart'] 	  = $this->language->get('text_shop_cart');
+			
+			$data['text_title'] 	  = $this->language->get('text_title');
+			$data['text_thumb'] 	  = $this->language->get('text_thumb');
+			$data['text_success'] 	  = $this->language->get('text_success');
+			$data['text_items'] 	  = $this->language->get('text_items');
+			
+		]]></add>
+		</operation>
+		<operation>
+			<search position="before"><![CDATA[$data['text_loading'] = $this->language->get('text_loading');]]></search>
+			<add><![CDATA[
+			$this->load->language('common/cart');
+			$data['text_items_full'] = sprintf($this->language->get('text_items_full'), $this->cart->countProducts() + (isset($this->session->data['vouchers']) ? count($this->session->data['vouchers']) : 0), $this->currency->format($total, $this->session->data['currency']));
+			
+		]]></add>
+		</operation>
+	</file>
+	
+	
+	<file name="catalog/controller/module/so_deals.php">
+		<operation>
+			<search position="before"><![CDATA[$this->load->language('module/so_deals');]]></search>
+			<add><![CDATA[	
+			$this->load->language('common/soconfig');
+			$data['mod_quickview'] 	  = $this->language->get('mod_quickview');
+		]]></add>
+		</operation>
+	</file>
+	
+	<file name="catalog/controller/module/so_latest_blog.php">
+		<operation>
+			<search position="before"><![CDATA[$this->load->language('module/so_latest_blog');]]></search>
+			<add><![CDATA[	
+			// Add New Language For Blog
+			$this->load->language('common/soconfig');
+			$data['text_sub'] 	  = $this->language->get('text_sub');
+		]]></add>
+		</operation>
+	</file>
+
+	<file name="catalog/controller/module/so_listing_tabs.php,catalog/controller/module/so_extra_slider.php">
+		<operation>
+			<search position="after"><![CDATA[public function index]]></search>
+			<add><![CDATA[	
+			// Add New Language For Blog
+			$this->load->language('common/soconfig');
+			$data['pre_text'] 	  = $this->language->get('pre_text');
+			$data['button_quickview'] 	  = $this->language->get('button_quickview');
+		]]></add>
+		</operation>
+	</file>
+	<file name="catalog/controller/module/so_super_category.php">
+		<operation>
+			<search position="before"><![CDATA[$this->load->language('module/so_super_category');]]></search>
+			<add><![CDATA[	
+			$this->load->language('common/soconfig');
+			$data['text_hot_cate'] = $this->language->get('text_hot_cate');
+			
+			
+		]]></add>
+		</operation>
+	</file>
+		<file name="catalog/controller/module/so_megamenu.php">
+		<operation>
+			<search position="before"><![CDATA[$this->load->model('module/so_megamenu');]]></search>
+			<add><![CDATA[		
+			$this->load->language('common/soconfig');
+			$data['more_text'] = $this->language->get('more_text');
+			$data['close_text'] = $this->language->get('close_text');
+			
+		]]></add>
+		</operation>
+		
+	</file>
+
+	<file name="catalog/controller/module/so_category_slider.php">
+		<operation>
+			<search position="before"><![CDATA[$this->load->language('module/so_category_slider');]]></search>
+			<add><![CDATA[	
+			// Add New Language For Blog
+			$this->load->language('common/soconfig');
+			$data['text_show_cate'] 	  = $this->language->get('text_show_cate');
+			$data['mod_quickview'] 	  = $this->language->get('mod_quickview');
+		]]></add>
+		</operation>
+	</file>
+	
+	<file name="catalog/controller/product/category.php" error="log">
+		<operation error="skip">
+			<search position="before"><![CDATA[$data['pagination'] = $pagination->render();]]></search>
+			<add><![CDATA[
+				$this->document->addScript('catalog/view/javascript/jquery/masonry.pkgd.min.js');
+				$this->document->addScript('catalog/view/javascript/jquery/masonry.pkgd.min.js');
+			]]></add>
+		</operation>
+		<operation error="log">
+			<search position="before"><![CDATA[$data['breadcrumbs'] = array();]]></search>
+			<add><![CDATA[
+			$this->load->language('common/soconfig');
+			$data['text_stock'] 	= $this->language->get('text_stock');
+			$data['text_price_old'] = $this->language->get('text_price_old');
+			$data['text_price_save'] = $this->language->get('text_price_save');
+			$data['text_price_sale'] = $this->language->get('text_price_sale');
+			$data['text_viewdeals']  = $this->language->get('text_viewdeals');
+			]]></add>
+		</operation>
+		<operation>
+			<search position="before"><![CDATA[$data['products'][] = array(]]></search>
+			<add><![CDATA[
+				if ((float)$result['special']) {
+					$special = $this->currency->format($this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+					$price_sale = $this->currency->format($this->tax->calculate($result['price']- $result['special'], $result['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency']);
+				} else {
+					$special = false;
+					$price_sale = false;
+				}
+				
+				$images = $this->model_catalog_product->getProductImages($result['product_id']);
+            	if(isset($images[0]['image']) && !empty($images[0]['image'])){
+                 $images =$images[0]['image'];
+               } else {
+				$images = false;
+				}
+				
+				if ($result['quantity'] <= 0) {
+					$stock = $result['stock_status'];
+				} elseif ($this->config->get('config_stock_display')) {
+					$stock = $result['quantity'];
+				} else {
+					$stock = $this->language->get('text_instock');
+				}
+				
+				
+			   ]]></add>
+		</operation>
+		<operation>
+			<search position="after"><![CDATA['special'     => $special,]]></search>
+			<add><![CDATA[
+				'image_deal'      => $this->model_tool_image->resize($result['image'],270 ,295 ),
+				'thumb2' 			=> $this->model_tool_image->resize($images, $this->config->get($this->config->get('config_theme') . '_image_product_width'), $this->config->get($this->config->get('config_theme') . '_image_product_height')),
+				'manufacturer'      => $result['manufacturer'],
+				'manufacturers'     => $this->url->link('product/manufacturer/info', 'manufacturer_id=' . $result['manufacturer_id']),
+				'model'      		=> $result['model'],
+				'stock'      		=> $stock,
+				'price_sale'     	=> $price_sale,
+			   ]]></add>
+		</operation>
+		
+		<operation error="log">
+			<search position="after"><![CDATA[$data['categories'] = array();]]></search>
+			<add><![CDATA[
+				$data['category_id'] = $this->request->get['path'];
+			]]>
+			</add>
+		</operation>
+		
+		<operation error="log">
+			<search position="before"><![CDATA[$data['categories'][] ]]></search>
+			<add><![CDATA[
+				if ($result['image']) {
+					$image = $this->model_tool_image->resize($result['image'], $this->config->get($this->config->get('config_theme') . '_image_category_width'), $this->config->get($this->config->get('config_theme') . '_image_category_height'));
+				} else {
+					$image = $this->model_tool_image->resize('placeholder.png', $this->config->get($this->config->get('config_theme') . '_image_category_width'), $this->config->get($this->config->get('config_theme') . '_image_category_height'));
+				}
+			]]>
+			</add>
+		</operation>
+		
+		<operation>
+			<search position="after"><![CDATA[$data['categories'][]]]></search>
+			<add><![CDATA[
+				'thumb'       => $image,
+			   ]]></add>
+		</operation>
+		
+	</file>
+	<file name="catalog/controller/product/quickview.php">
+		<operation error="skip">
+			<search position="before"><![CDATA[$this->document->addScript('catalog/view/javascript/jquery/magnific/jquery.magnific-popup.min.js');]]></search>
+			<add><![CDATA[
+				$data['direction'] = $this->language->get('direction');
+				$this->document->addScript('catalog/view/javascript/jquery/jquery.elevateZoom-3.0.8.min.js');
+			]]></add>
+		</operation>
+	</file>
+	<file name="catalog/controller/product/product.php">
+		<operation>
+			<search position="before"><![CDATA[$this->load->language('product/product');]]></search>
+			<add><![CDATA[	
+			// Add New Language For Cart
+			$this->load->language('common/soconfig');
+			$data['text_upsell'] 	  = $this->language->get('text_upsell');
+			$data['pre_text'] 	  = $this->language->get('pre_text');
+			$data['direction'] = $this->language->get('direction');
+		]]></add>
+		</operation>
+		<operation error="skip">
+			<search position="replace"><![CDATA[$this->document->addScript('catalog/view/javascript/jquery/magnific/jquery.magnific-popup.min.js');]]></search>
+			<add><![CDATA[
+				$this->document->addScript('catalog/view/javascript/jquery/jquery.elevateZoom-3.0.8.min.js');
+			]]></add>
+		</operation>
+		
+		<operation>
+			<search position="before"><![CDATA[$discounts = $this->model_catalog_product->getProductDiscounts($this->request->get['product_id']);]]></search>
+			<add><![CDATA[
+				$this->load->language('common/soconfig');
+				$data['overview'] = $this->language->get('overview');
+			]]></add>
+		</operation>
+		<operation>
+			<search position="replace"><![CDATA[$data['thumb'] = '']]></search>
+			<add><![CDATA[// Empty check images placeholder
+				$data['thumb'] = $this->model_tool_image->resize('placeholder.png', $this->config->get($this->config->get('config_theme') . '_image_product_width'), $this->config->get($this->config->get('config_theme') . '_image_product_height'));
+			]]></add>
+		</operation>
+		<operation>
+			<search position="replace"><![CDATA[$data['popup'] = '']]></search>
+			<add><![CDATA[// Empty check images placeholder
+				$data['popup'] = $this->model_tool_image->resize('placeholder.png', $this->config->get($this->config->get('config_theme') . '_image_popup_width'), $this->config->get($this->config->get('config_theme') . '_image_popup_height'));
+			]]></add>
+		</operation>
+		
+	</file>
+	
+	<file name="admin/controller/design/layout.php">
+	  <operation error="log">
+	   <search position="replace"><![CDATA[design/layout_form]]></search>
+	   <add><![CDATA[design/layout_form_soconfig]]></add>
+	  </operation>
+	</file>
+	<file name="admin/view/template/setting/store_list.tpl">
+        <operation>
+            <search position="replace"  ><![CDATA[ $store['name']]]></search>
+            <add><![CDATA[
+             $store['name'].' <span class="label label-default" style="font-weight:normal"> Version v1.3.0</span> ';
+            ]]></add>
+	    </operation>
+    </file>
+	
+</modification>

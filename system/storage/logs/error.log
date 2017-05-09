@@ -1,0 +1,646 @@
+2016-11-29 2:21:35 - PHP Notice:  Undefined variable: token in D:\xampp\htdocs\Opencart\tt_estore\admin\view\template\extension\module\ochozmegamenu.tpl on line 184
+2016-11-29 2:29:29 - PHP Notice:  Undefined index: banner in D:\xampp\htdocs\Opencart\tt_estore\admin\controller\extension\module\ocslideshow.php on line 135
+2016-11-29 2:29:42 - PHP Notice:  Undefined index: banner in D:\xampp\htdocs\Opencart\tt_estore\admin\controller\extension\module\ocslideshow.php on line 135
+2016-11-29 2:30:13 - PHP Notice:  Undefined index: banner in D:\xampp\htdocs\Opencart\tt_estore\admin\controller\extension\module\ocslideshow.php on line 135
+2016-11-29 2:35:08 - PHP Warning:  implode(): Invalid arguments passed in D:\xampp\htdocs\Opencart\tt_estore\admin\model\ocslideshow\slide.php on line 40
+2016-11-29 2:35:08 - PHP Warning:  implode(): Invalid arguments passed in D:\xampp\htdocs\Opencart\tt_estore\admin\model\ocslideshow\slide.php on line 40
+2016-11-29 2:35:13 - PHP Warning:  implode(): Invalid arguments passed in D:\xampp\htdocs\Opencart\tt_estore\admin\model\ocslideshow\slide.php on line 40
+2016-11-29 2:35:13 - PHP Warning:  implode(): Invalid arguments passed in D:\xampp\htdocs\Opencart\tt_estore\admin\model\ocslideshow\slide.php on line 40
+2016-11-29 2:35:13 - PHP Warning:  implode(): Invalid arguments passed in D:\xampp\htdocs\Opencart\tt_estore\admin\model\ocslideshow\slide.php on line 40
+2016-11-29 2:35:13 - PHP Warning:  implode(): Invalid arguments passed in D:\xampp\htdocs\Opencart\tt_estore\admin\model\ocslideshow\slide.php on line 40
+2016-11-29 5:35:59 - PHP Notice:  Undefined index: article_description in D:\xampp\htdocs\Opencart\tt_estore\admin\controller\blog\articlelist.php on line 382
+2016-11-29 5:35:59 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\Opencart\tt_estore\admin\controller\blog\articlelist.php on line 382
+2016-11-29 5:36:08 - PHP Notice:  Undefined index: article_description in D:\xampp\htdocs\Opencart\tt_estore\admin\controller\blog\articlelist.php on line 382
+2016-11-29 5:36:08 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\Opencart\tt_estore\admin\controller\blog\articlelist.php on line 382
+2016-11-30 2:32:50 - PHP Warning:  DOMDocument::loadXML(): ParsePI: PI php never end ... in Entity, line: 20 in D:\xampp\htdocs\Opencart\tt_estore\admin\controller\extension\modification.php on line 143
+2016-11-30 2:32:50 - PHP Warning:  DOMDocument::loadXML(): Start tag expected, '&lt;' not found in Entity, line: 20 in D:\xampp\htdocs\Opencart\tt_estore\admin\controller\extension\modification.php on line 143
+2016-11-30 2:32:50 - PHP Notice:  Trying to get property of non-object in D:\xampp\htdocs\Opencart\tt_estore\admin\controller\extension\modification.php on line 146
+2016-11-30 2:32:53 - PHP Notice:  Undefined variable: text_phone in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\common\header.tpl on line 61
+2016-11-30 2:32:53 - PHP Notice:  Undefined variable: text_message in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\common\header.tpl on line 62
+2016-11-30 2:33:25 - PHP Notice:  Undefined variable: text_phone in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\common\header.tpl on line 61
+2016-11-30 2:33:25 - PHP Notice:  Undefined variable: text_message in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\common\header.tpl on line 62
+2016-11-30 8:26:00 - PHP Notice:  Undefined index: rotator_image in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocsearchcategory\searchajaxresult.tpl on line 12
+2016-11-30 8:26:00 - PHP Notice:  Undefined index: rotator_image in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocsearchcategory\searchajaxresult.tpl on line 12
+2016-11-30 8:37:26 - PHP Notice:  Undefined index: rotator_image in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocsearchcategory\searchajaxresult.tpl on line 12
+2016-11-30 8:37:26 - PHP Notice:  Undefined index: rotator_image in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocsearchcategory\searchajaxresult.tpl on line 12
+2016-11-30 8:37:26 - PHP Notice:  Undefined index: rotator_image in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocsearchcategory\searchajaxresult.tpl on line 12
+2016-11-30 8:37:26 - PHP Notice:  Undefined index: rotator_image in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocsearchcategory\searchajaxresult.tpl on line 12
+2016-11-30 8:37:26 - PHP Notice:  Undefined index: rotator_image in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocsearchcategory\searchajaxresult.tpl on line 12
+2016-11-30 8:37:26 - PHP Notice:  Undefined index: rotator_image in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocsearchcategory\searchajaxresult.tpl on line 12
+2016-11-30 8:37:26 - PHP Notice:  Undefined index: rotator_image in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocsearchcategory\searchajaxresult.tpl on line 12
+2016-11-30 8:37:26 - PHP Notice:  Undefined index: rotator_image in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocsearchcategory\searchajaxresult.tpl on line 12
+2016-11-30 8:37:26 - PHP Notice:  Undefined index: rotator_image in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocsearchcategory\searchajaxresult.tpl on line 12
+2016-11-30 8:37:26 - PHP Notice:  Undefined index: rotator_image in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocsearchcategory\searchajaxresult.tpl on line 12
+2016-11-30 8:37:26 - PHP Notice:  Undefined index: rotator_image in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocsearchcategory\searchajaxresult.tpl on line 12
+2016-11-30 8:37:26 - PHP Notice:  Undefined index: rotator_image in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocsearchcategory\searchajaxresult.tpl on line 12
+2016-11-30 9:36:09 - PHP Notice:  Undefined index: rotator_image in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocsearchcategory\searchajaxresult.tpl on line 12
+2016-11-30 9:36:09 - PHP Notice:  Undefined index: rotator_image in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocsearchcategory\searchajaxresult.tpl on line 12
+2016-11-30 9:36:09 - PHP Notice:  Undefined index: rotator_image in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocsearchcategory\searchajaxresult.tpl on line 12
+2016-11-30 9:36:09 - PHP Notice:  Undefined index: rotator_image in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocsearchcategory\searchajaxresult.tpl on line 12
+2016-11-30 9:36:09 - PHP Notice:  Undefined index: rotator_image in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocsearchcategory\searchajaxresult.tpl on line 12
+2016-11-30 9:36:09 - PHP Notice:  Undefined index: rotator_image in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocsearchcategory\searchajaxresult.tpl on line 12
+2016-11-30 9:36:09 - PHP Notice:  Undefined index: rotator_image in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocsearchcategory\searchajaxresult.tpl on line 12
+2016-11-30 9:36:09 - PHP Notice:  Undefined index: rotator_image in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocsearchcategory\searchajaxresult.tpl on line 12
+2016-11-30 9:36:09 - PHP Notice:  Undefined index: rotator_image in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocsearchcategory\searchajaxresult.tpl on line 12
+2016-11-30 9:36:09 - PHP Notice:  Undefined index: rotator_image in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocsearchcategory\searchajaxresult.tpl on line 12
+2016-11-30 9:36:09 - PHP Notice:  Undefined index: rotator_image in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocsearchcategory\searchajaxresult.tpl on line 12
+2016-11-30 9:36:09 - PHP Notice:  Undefined index: rotator_image in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocsearchcategory\searchajaxresult.tpl on line 12
+2016-11-30 9:48:27 - PHP Notice:  Undefined index: rotator_image in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocsearchcategory\searchajaxresult.tpl on line 12
+2016-11-30 9:48:27 - PHP Notice:  Undefined index: rotator_image in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocsearchcategory\searchajaxresult.tpl on line 12
+2016-11-30 9:48:27 - PHP Notice:  Undefined index: rotator_image in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocsearchcategory\searchajaxresult.tpl on line 12
+2016-11-30 9:48:27 - PHP Notice:  Undefined index: rotator_image in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocsearchcategory\searchajaxresult.tpl on line 12
+2016-11-30 9:48:27 - PHP Notice:  Undefined index: rotator_image in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocsearchcategory\searchajaxresult.tpl on line 12
+2016-11-30 9:48:27 - PHP Notice:  Undefined index: rotator_image in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocsearchcategory\searchajaxresult.tpl on line 12
+2016-11-30 9:48:27 - PHP Notice:  Undefined index: rotator_image in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocsearchcategory\searchajaxresult.tpl on line 12
+2016-11-30 9:48:27 - PHP Notice:  Undefined index: rotator_image in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocsearchcategory\searchajaxresult.tpl on line 12
+2016-11-30 9:48:27 - PHP Notice:  Undefined index: rotator_image in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocsearchcategory\searchajaxresult.tpl on line 12
+2016-11-30 9:48:27 - PHP Notice:  Undefined index: rotator_image in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocsearchcategory\searchajaxresult.tpl on line 12
+2016-11-30 9:48:27 - PHP Notice:  Undefined index: rotator_image in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocsearchcategory\searchajaxresult.tpl on line 12
+2016-11-30 9:48:27 - PHP Notice:  Undefined index: rotator_image in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocsearchcategory\searchajaxresult.tpl on line 12
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: f_show_label in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 59
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 100
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: f_show_des in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 112
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: f_show_addtocart in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 127
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: f_show_label in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 59
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 100
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: f_show_des in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 112
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: f_show_addtocart in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 127
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: f_show_label in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 59
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 100
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: f_show_des in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 112
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: f_show_addtocart in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 127
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: f_show_label in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 59
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 100
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: f_show_des in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 112
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: f_show_addtocart in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 127
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: f_show_label in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 59
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 100
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: f_show_des in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 112
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: f_show_addtocart in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 127
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: f_show_label in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 59
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 100
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: f_show_des in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 112
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: f_show_addtocart in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 127
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: f_show_label in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 59
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 100
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: f_show_des in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 112
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: f_show_addtocart in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 127
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: f_show_label in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 59
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 100
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: f_show_des in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 112
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: f_show_addtocart in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 127
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: f_show_label in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 59
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 100
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: f_show_des in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 112
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: f_show_addtocart in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 127
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: f_show_label in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 59
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 100
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: f_show_des in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 112
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: f_show_addtocart in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 127
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: f_show_label in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 59
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 100
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: f_show_des in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 112
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: f_show_addtocart in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 127
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: f_show_label in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 59
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 100
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: f_show_des in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 112
+2016-12-02 3:24:36 - PHP Notice:  Undefined index: f_show_addtocart in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 127
+2016-12-02 3:26:34 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 100
+2016-12-02 3:26:34 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 100
+2016-12-02 3:26:34 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 100
+2016-12-02 3:26:34 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 100
+2016-12-02 3:26:34 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 100
+2016-12-02 3:26:34 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 100
+2016-12-02 3:26:34 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 100
+2016-12-02 3:26:34 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 100
+2016-12-02 3:26:34 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 100
+2016-12-02 3:26:34 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 100
+2016-12-02 3:26:34 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 100
+2016-12-02 3:26:34 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 100
+2016-12-02 3:35:40 - PHP Notice:  Undefined variable: rows in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 55
+2016-12-02 3:35:40 - PHP Warning:  Division by zero in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 55
+2016-12-02 3:35:40 - PHP Notice:  Undefined variable: rows in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 140
+2016-12-02 3:35:40 - PHP Warning:  Division by zero in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 140
+2016-12-02 3:35:40 - PHP Notice:  Undefined variable: rows in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 55
+2016-12-02 3:35:40 - PHP Warning:  Division by zero in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 55
+2016-12-02 3:35:40 - PHP Notice:  Undefined variable: rows in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 140
+2016-12-02 3:35:40 - PHP Warning:  Division by zero in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 140
+2016-12-02 3:35:40 - PHP Notice:  Undefined variable: rows in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 55
+2016-12-02 3:35:40 - PHP Warning:  Division by zero in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 55
+2016-12-02 3:35:40 - PHP Notice:  Undefined variable: rows in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 140
+2016-12-02 3:35:40 - PHP Warning:  Division by zero in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 140
+2016-12-02 3:35:40 - PHP Notice:  Undefined variable: rows in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 55
+2016-12-02 3:35:40 - PHP Warning:  Division by zero in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 55
+2016-12-02 3:35:40 - PHP Notice:  Undefined variable: rows in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 140
+2016-12-02 3:35:40 - PHP Warning:  Division by zero in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 140
+2016-12-02 3:35:40 - PHP Notice:  Undefined variable: rows in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 55
+2016-12-02 3:35:40 - PHP Warning:  Division by zero in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 55
+2016-12-02 3:35:40 - PHP Notice:  Undefined variable: rows in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 140
+2016-12-02 3:35:40 - PHP Warning:  Division by zero in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 140
+2016-12-02 3:35:40 - PHP Notice:  Undefined variable: rows in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 55
+2016-12-02 3:35:40 - PHP Warning:  Division by zero in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 55
+2016-12-02 3:35:40 - PHP Notice:  Undefined variable: rows in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 140
+2016-12-02 3:35:40 - PHP Warning:  Division by zero in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 140
+2016-12-02 3:35:40 - PHP Notice:  Undefined variable: rows in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 55
+2016-12-02 3:35:40 - PHP Warning:  Division by zero in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 55
+2016-12-02 3:35:40 - PHP Notice:  Undefined variable: rows in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 140
+2016-12-02 3:35:40 - PHP Warning:  Division by zero in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 140
+2016-12-02 3:35:40 - PHP Notice:  Undefined variable: rows in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 55
+2016-12-02 3:35:40 - PHP Warning:  Division by zero in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 55
+2016-12-02 3:35:40 - PHP Notice:  Undefined variable: rows in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 140
+2016-12-02 3:35:40 - PHP Warning:  Division by zero in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 140
+2016-12-02 3:35:40 - PHP Notice:  Undefined variable: rows in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 55
+2016-12-02 3:35:40 - PHP Warning:  Division by zero in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 55
+2016-12-02 3:35:40 - PHP Notice:  Undefined variable: rows in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 140
+2016-12-02 3:35:40 - PHP Warning:  Division by zero in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 140
+2016-12-02 3:35:40 - PHP Notice:  Undefined variable: rows in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 55
+2016-12-02 3:35:40 - PHP Warning:  Division by zero in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 55
+2016-12-02 3:35:40 - PHP Notice:  Undefined variable: rows in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 140
+2016-12-02 3:35:40 - PHP Warning:  Division by zero in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 140
+2016-12-02 3:35:40 - PHP Notice:  Undefined variable: rows in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 55
+2016-12-02 3:35:40 - PHP Warning:  Division by zero in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 55
+2016-12-02 3:35:40 - PHP Notice:  Undefined variable: rows in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 140
+2016-12-02 3:35:40 - PHP Warning:  Division by zero in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 140
+2016-12-02 3:35:40 - PHP Notice:  Undefined variable: rows in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 55
+2016-12-02 3:35:40 - PHP Warning:  Division by zero in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 55
+2016-12-02 3:35:40 - PHP Notice:  Undefined variable: rows in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 140
+2016-12-02 3:35:40 - PHP Warning:  Division by zero in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 140
+2016-12-02 9:15:13 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:15:13 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:15:13 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:15:13 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:15:13 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:15:13 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:15:13 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:15:13 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:15:13 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:15:13 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:15:13 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:15:13 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:16:50 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:16:50 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:16:50 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:16:50 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:16:50 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:16:50 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:16:50 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:16:50 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:16:50 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:16:50 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:16:50 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:16:50 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:17:38 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:17:38 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:17:38 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:17:38 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:17:38 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:17:38 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:17:38 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:17:38 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:17:38 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:17:38 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:17:38 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:17:38 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:17:50 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:17:50 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:17:50 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:17:50 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:17:50 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:17:50 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:17:50 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:17:50 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:17:50 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:17:50 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:17:50 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-02 9:17:50 - PHP Warning:  substr() expects at least 2 parameters, 1 given in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeaturedcategorytab.php on line 202
+2016-12-03 5:24:24 - PHP Notice:  Undefined index: special_num in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 107
+2016-12-03 5:24:24 - PHP Notice:  Undefined index: price_num in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 107
+2016-12-03 5:24:24 - PHP Notice:  Undefined index: price_num in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 107
+2016-12-03 5:24:24 - PHP Warning:  Division by zero in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 107
+2016-12-03 5:24:24 - PHP Notice:  Undefined index: special_num in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 107
+2016-12-03 5:24:24 - PHP Notice:  Undefined index: price_num in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 107
+2016-12-03 5:24:24 - PHP Notice:  Undefined index: price_num in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 107
+2016-12-03 5:24:24 - PHP Warning:  Division by zero in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 107
+2016-12-03 5:24:54 - PHP Notice:  Undefined index: special_num in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 107
+2016-12-03 5:24:54 - PHP Notice:  Undefined index: price_num in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 107
+2016-12-03 5:24:54 - PHP Notice:  Undefined index: price_num in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 107
+2016-12-03 5:24:54 - PHP Warning:  Division by zero in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 107
+2016-12-03 5:24:54 - PHP Notice:  Undefined index: special_num in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 107
+2016-12-03 5:24:54 - PHP Notice:  Undefined index: price_num in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 107
+2016-12-03 5:24:54 - PHP Notice:  Undefined index: price_num in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 107
+2016-12-03 5:24:54 - PHP Warning:  Division by zero in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 107
+2016-12-05 4:23:07 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 90
+2016-12-05 4:23:07 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 90
+2016-12-05 4:23:07 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 90
+2016-12-05 4:23:07 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 90
+2016-12-05 4:23:07 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 90
+2016-12-05 4:23:07 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 90
+2016-12-05 4:23:07 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 90
+2016-12-05 4:23:07 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 90
+2016-12-05 4:23:07 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 90
+2016-12-05 4:23:07 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 90
+2016-12-05 4:23:07 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 90
+2016-12-05 4:23:07 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 90
+2016-12-05 4:23:07 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 90
+2016-12-05 4:23:07 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 90
+2016-12-05 4:23:07 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 90
+2016-12-05 4:23:07 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 90
+2016-12-05 4:23:55 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 90
+2016-12-05 4:23:55 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 90
+2016-12-05 4:23:55 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 90
+2016-12-05 4:23:55 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 90
+2016-12-05 4:23:55 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 90
+2016-12-05 4:23:55 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 90
+2016-12-05 4:23:55 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 90
+2016-12-05 4:23:55 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 90
+2016-12-05 4:23:55 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 90
+2016-12-05 4:23:55 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 90
+2016-12-05 4:23:55 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 90
+2016-12-05 4:23:55 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 90
+2016-12-05 4:23:55 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 90
+2016-12-05 4:23:55 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 90
+2016-12-05 4:23:55 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 90
+2016-12-05 4:23:55 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\octabcategoryslider.tpl on line 90
+2016-12-05 5:14:31 - PHP Notice:  Undefined index: special_num in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 65
+2016-12-05 5:14:31 - PHP Notice:  Undefined index: price_num in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 65
+2016-12-05 5:14:31 - PHP Notice:  Undefined index: price_num in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 65
+2016-12-05 5:14:31 - PHP Warning:  Division by zero in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 65
+2016-12-05 5:14:31 - PHP Notice:  Undefined index: special_num in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 65
+2016-12-05 5:14:31 - PHP Notice:  Undefined index: price_num in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 65
+2016-12-05 5:14:31 - PHP Notice:  Undefined index: price_num in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 65
+2016-12-05 5:14:31 - PHP Warning:  Division by zero in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 65
+2016-12-05 5:14:31 - PHP Notice:  Undefined index: special_num in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 65
+2016-12-05 5:14:31 - PHP Notice:  Undefined index: price_num in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 65
+2016-12-05 5:14:31 - PHP Notice:  Undefined index: price_num in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 65
+2016-12-05 5:14:31 - PHP Warning:  Division by zero in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocfeaturedcategorytab.tpl on line 65
+2016-12-05 5:22:47 - PHP Notice:  Undefined index: showdes in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocnewproductslider.tpl on line 66
+2016-12-05 5:22:47 - PHP Notice:  Undefined index: showdes in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocnewproductslider.tpl on line 66
+2016-12-05 5:22:47 - PHP Notice:  Undefined index: showdes in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocnewproductslider.tpl on line 66
+2016-12-05 5:22:47 - PHP Notice:  Undefined index: showdes in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocnewproductslider.tpl on line 66
+2016-12-05 5:22:47 - PHP Notice:  Undefined index: showdes in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocnewproductslider.tpl on line 66
+2016-12-05 5:22:47 - PHP Notice:  Undefined index: showdes in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\ocnewproductslider.tpl on line 66
+2016-12-05 9:45:14 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in D:\xampp\htdocs\Opencart\tt_estore\system\library\image.php on line 105
+2016-12-05 9:45:14 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in D:\xampp\htdocs\Opencart\tt_estore\system\library\image.php on line 113
+2016-12-05 9:45:14 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in D:\xampp\htdocs\Opencart\tt_estore\system\library\image.php on line 116
+2016-12-05 9:45:14 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in D:\xampp\htdocs\Opencart\tt_estore\system\library\image.php on line 118
+2016-12-05 9:45:14 - PHP Notice:  Undefined variable: text_post_by in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\blog\article.tpl on line 26
+2016-12-05 11:19:03 - PHP Notice:  Undefined variable: timec in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\occountdown.tpl on line 126
+2016-12-05 11:19:03 - PHP Notice:  Undefined variable: timec in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\occountdown.tpl on line 126
+2016-12-05 11:20:07 - PHP Notice:  Undefined variable: timec in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\occountdown.tpl on line 126
+2016-12-05 11:20:07 - PHP Notice:  Undefined variable: timec in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\occountdown.tpl on line 126
+2016-12-05 11:20:48 - PHP Notice:  Undefined variable: timec in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\occountdown.tpl on line 126
+2016-12-05 11:20:48 - PHP Notice:  Undefined variable: timec in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\occountdown.tpl on line 126
+2016-12-05 11:21:01 - PHP Notice:  Undefined variable: timec in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\occountdown.tpl on line 126
+2016-12-05 11:21:01 - PHP Notice:  Undefined variable: timec in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\occountdown.tpl on line 126
+2016-12-05 11:22:19 - PHP Notice:  Undefined variable: timec in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\occountdown.tpl on line 137
+2016-12-05 11:22:19 - PHP Notice:  Undefined variable: timec in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\occountdown.tpl on line 137
+2016-12-05 11:22:44 - PHP Notice:  Undefined variable: timec in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\occountdown.tpl on line 138
+2016-12-05 11:22:44 - PHP Notice:  Undefined variable: timec in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\occountdown.tpl on line 138
+2016-12-05 11:23:16 - PHP Notice:  Undefined variable: timec in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\occountdown.tpl on line 139
+2016-12-05 11:23:16 - PHP Notice:  Undefined variable: timec in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\occountdown.tpl on line 139
+2016-12-06 4:09:54 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in D:\xampp\htdocs\Opencart\tt_estore\system\library\image.php on line 105
+2016-12-06 4:09:54 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in D:\xampp\htdocs\Opencart\tt_estore\system\library\image.php on line 113
+2016-12-06 4:09:54 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in D:\xampp\htdocs\Opencart\tt_estore\system\library\image.php on line 116
+2016-12-06 4:09:54 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in D:\xampp\htdocs\Opencart\tt_estore\system\library\image.php on line 118
+2016-12-06 4:09:54 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in D:\xampp\htdocs\Opencart\tt_estore\system\library\image.php on line 105
+2016-12-06 4:09:54 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in D:\xampp\htdocs\Opencart\tt_estore\system\library\image.php on line 113
+2016-12-06 4:09:54 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in D:\xampp\htdocs\Opencart\tt_estore\system\library\image.php on line 116
+2016-12-06 4:09:54 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in D:\xampp\htdocs\Opencart\tt_estore\system\library\image.php on line 118
+2016-12-06 4:09:54 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in D:\xampp\htdocs\Opencart\tt_estore\system\library\image.php on line 105
+2016-12-06 4:09:54 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in D:\xampp\htdocs\Opencart\tt_estore\system\library\image.php on line 113
+2016-12-06 4:09:54 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in D:\xampp\htdocs\Opencart\tt_estore\system\library\image.php on line 116
+2016-12-06 4:09:54 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in D:\xampp\htdocs\Opencart\tt_estore\system\library\image.php on line 118
+2016-12-06 4:09:54 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in D:\xampp\htdocs\Opencart\tt_estore\system\library\image.php on line 105
+2016-12-06 4:09:54 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in D:\xampp\htdocs\Opencart\tt_estore\system\library\image.php on line 113
+2016-12-06 4:09:54 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in D:\xampp\htdocs\Opencart\tt_estore\system\library\image.php on line 116
+2016-12-06 4:09:54 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in D:\xampp\htdocs\Opencart\tt_estore\system\library\image.php on line 118
+2016-12-06 4:09:56 - PHP Notice:  Undefined variable: text_post_by in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\blog\blog.tpl on line 34
+2016-12-06 4:09:56 - PHP Notice:  Undefined variable: text_post_by in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\blog\blog.tpl on line 34
+2016-12-06 4:09:56 - PHP Notice:  Undefined variable: text_post_by in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\blog\blog.tpl on line 34
+2016-12-06 4:09:56 - PHP Notice:  Undefined variable: text_post_by in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\blog\blog.tpl on line 34
+2016-12-06 4:10:38 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in D:\xampp\htdocs\Opencart\tt_estore\system\library\image.php on line 105
+2016-12-06 4:10:38 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in D:\xampp\htdocs\Opencart\tt_estore\system\library\image.php on line 113
+2016-12-06 4:10:38 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in D:\xampp\htdocs\Opencart\tt_estore\system\library\image.php on line 116
+2016-12-06 4:10:38 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in D:\xampp\htdocs\Opencart\tt_estore\system\library\image.php on line 118
+2016-12-06 4:10:38 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in D:\xampp\htdocs\Opencart\tt_estore\system\library\image.php on line 105
+2016-12-06 4:10:38 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in D:\xampp\htdocs\Opencart\tt_estore\system\library\image.php on line 113
+2016-12-06 4:10:38 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in D:\xampp\htdocs\Opencart\tt_estore\system\library\image.php on line 116
+2016-12-06 4:10:38 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in D:\xampp\htdocs\Opencart\tt_estore\system\library\image.php on line 118
+2016-12-06 4:10:38 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in D:\xampp\htdocs\Opencart\tt_estore\system\library\image.php on line 105
+2016-12-06 4:10:38 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in D:\xampp\htdocs\Opencart\tt_estore\system\library\image.php on line 113
+2016-12-06 4:10:38 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in D:\xampp\htdocs\Opencart\tt_estore\system\library\image.php on line 116
+2016-12-06 4:10:38 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in D:\xampp\htdocs\Opencart\tt_estore\system\library\image.php on line 118
+2016-12-06 4:10:38 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in D:\xampp\htdocs\Opencart\tt_estore\system\library\image.php on line 105
+2016-12-06 4:10:38 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in D:\xampp\htdocs\Opencart\tt_estore\system\library\image.php on line 113
+2016-12-06 4:10:38 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in D:\xampp\htdocs\Opencart\tt_estore\system\library\image.php on line 116
+2016-12-06 4:10:38 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in D:\xampp\htdocs\Opencart\tt_estore\system\library\image.php on line 118
+2016-12-06 4:12:28 - PHP Notice:  Undefined variable: text_post_by in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\blog\blog.tpl on line 34
+2016-12-06 4:12:28 - PHP Notice:  Undefined variable: text_post_by in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\blog\blog.tpl on line 34
+2016-12-06 4:12:28 - PHP Notice:  Undefined variable: text_post_by in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\blog\blog.tpl on line 34
+2016-12-06 4:12:28 - PHP Notice:  Undefined variable: text_post_by in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\blog\blog.tpl on line 34
+2016-12-07 8:24:38 - PHP Notice:  Undefined variable: continue in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\oclayerednavigation\occategoryfilter.tpl on line 116
+2016-12-07 9:18:24 - PHP Notice:  Undefined variable: result in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocrandomslider.php on line 129
+2016-12-07 9:18:25 - PHP Notice:  Undefined variable: result in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocrandomslider.php on line 129
+2016-12-12 2:15:27 - PHP Notice:  Undefined variable: text_post_by in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\blog\article.tpl on line 26
+2016-12-12 2:18:03 - PHP Notice:  Undefined variable: text_post_by in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\blog\blog.tpl on line 34
+2016-12-12 2:18:03 - PHP Notice:  Undefined variable: text_post_by in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\blog\blog.tpl on line 34
+2016-12-12 2:18:03 - PHP Notice:  Undefined variable: text_post_by in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\blog\blog.tpl on line 34
+2016-12-12 2:18:03 - PHP Notice:  Undefined variable: text_post_by in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\blog\blog.tpl on line 34
+2016-12-14 5:09:28 - PHP Notice:  Undefined variable: continue in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\oclayerednavigation\occategoryfilter.tpl on line 116
+2016-12-14 5:09:28 - PHP Notice:  Undefined variable: continue in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\oclayerednavigation\occategoryfilter.tpl on line 116
+2016-12-14 5:09:28 - PHP Notice:  Undefined variable: continue in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\oclayerednavigation\occategoryfilter.tpl on line 116
+2016-12-14 5:09:28 - PHP Notice:  Undefined variable: continue in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\oclayerednavigation\occategoryfilter.tpl on line 116
+2016-12-14 5:10:29 - PHP Notice:  Undefined variable: continue in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\oclayerednavigation\occategoryfilter.tpl on line 116
+2016-12-14 5:10:29 - PHP Notice:  Undefined variable: continue in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\oclayerednavigation\occategoryfilter.tpl on line 116
+2016-12-14 5:10:29 - PHP Notice:  Undefined variable: continue in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\oclayerednavigation\occategoryfilter.tpl on line 116
+2016-12-14 5:10:29 - PHP Notice:  Undefined variable: continue in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\oclayerednavigation\occategoryfilter.tpl on line 116
+2016-12-14 5:11:57 - PHP Notice:  Undefined variable: continue in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\oclayerednavigation\occategoryfilter.tpl on line 127
+2016-12-14 5:11:57 - PHP Notice:  Undefined variable: continue in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\oclayerednavigation\occategoryfilter.tpl on line 127
+2016-12-14 5:11:57 - PHP Notice:  Undefined variable: continue in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\oclayerednavigation\occategoryfilter.tpl on line 127
+2016-12-14 5:11:57 - PHP Notice:  Undefined variable: continue in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\oclayerednavigation\occategoryfilter.tpl on line 127
+2016-12-14 5:12:00 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\oclayerednavigation\occategoryfilter.tpl on line 64
+2016-12-14 5:12:00 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\oclayerednavigation\occategoryfilter.tpl on line 64
+2016-12-14 5:12:00 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\oclayerednavigation\occategoryfilter.tpl on line 64
+2016-12-14 5:12:00 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\oclayerednavigation\occategoryfilter.tpl on line 64
+2016-12-14 5:12:00 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\oclayerednavigation\occategoryfilter.tpl on line 64
+2016-12-14 5:12:00 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\oclayerednavigation\occategoryfilter.tpl on line 64
+2016-12-14 5:12:00 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\oclayerednavigation\occategoryfilter.tpl on line 64
+2016-12-14 5:12:00 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\oclayerednavigation\occategoryfilter.tpl on line 64
+2016-12-14 5:12:00 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\oclayerednavigation\occategoryfilter.tpl on line 64
+2016-12-14 5:13:00 - PHP Notice:  Undefined variable: continue in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\oclayerednavigation\occategoryfilter.tpl on line 127
+2016-12-14 5:14:19 - PHP Notice:  Undefined variable: continue in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\oclayerednavigation\occategoryfilter.tpl on line 127
+2016-12-14 5:14:19 - PHP Notice:  Undefined variable: continue in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\oclayerednavigation\occategoryfilter.tpl on line 127
+2016-12-14 5:14:20 - PHP Notice:  Undefined variable: continue in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\oclayerednavigation\occategoryfilter.tpl on line 127
+2016-12-14 5:14:20 - PHP Notice:  Undefined variable: continue in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\oclayerednavigation\occategoryfilter.tpl on line 127
+2016-12-14 8:06:17 - PHP Notice:  Undefined variable: continue in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\oclayerednavigation\occategoryfilter.tpl on line 127
+2016-12-21 10:05:52 - PHP Notice:  Undefined variable: token in D:\xampp\htdocs\Opencart\tt_estore\admin\view\template\extension\module\ochozmegamenu.tpl on line 184
+2016-12-21 10:18:30 - PHP Notice:  Undefined variable: token in D:\xampp\htdocs\Opencart\tt_estore\admin\view\template\extension\module\ochozmegamenu.tpl on line 184
+2016-12-22 2:58:37 - PHP Notice:  Undefined variable: token in D:\xampp\htdocs\Opencart\tt_estore\admin\view\template\extension\module\ochozmegamenu.tpl on line 184
+2016-12-22 9:17:37 - PHP Notice:  Undefined variable: token in D:\xampp\htdocs\Opencart\tt_estore\admin\view\template\extension\module\ochozmegamenu.tpl on line 184
+2016-12-26 9:42:25 - PHP Notice:  Undefined variable: entry_usethumbslide in D:\xampp\htdocs\Opencart\tt_estore\admin\view\template\extension\module\occountdown.tpl on line 160
+2016-12-26 9:42:25 - PHP Notice:  Undefined variable: usethumbslide in D:\xampp\htdocs\Opencart\tt_estore\admin\view\template\extension\module\occountdown.tpl on line 163
+2016-12-26 9:42:25 - PHP Notice:  Undefined variable: usethumbslide in D:\xampp\htdocs\Opencart\tt_estore\admin\view\template\extension\module\occountdown.tpl on line 164
+2016-12-26 9:42:25 - PHP Notice:  Undefined variable: entry_thumbslidemode in D:\xampp\htdocs\Opencart\tt_estore\admin\view\template\extension\module\occountdown.tpl on line 169
+2016-12-26 9:42:25 - PHP Notice:  Undefined variable: thumbslidemode in D:\xampp\htdocs\Opencart\tt_estore\admin\view\template\extension\module\occountdown.tpl on line 172
+2016-12-26 9:42:25 - PHP Notice:  Undefined variable: thumbslidemode in D:\xampp\htdocs\Opencart\tt_estore\admin\view\template\extension\module\occountdown.tpl on line 173
+2016-12-26 9:51:09 - PHP Notice:  Undefined variable: entry_usethumbslide in D:\xampp\htdocs\Opencart\tt_estore\admin\view\template\extension\module\occountdown.tpl on line 160
+2016-12-26 9:51:09 - PHP Notice:  Undefined variable: usethumbslide in D:\xampp\htdocs\Opencart\tt_estore\admin\view\template\extension\module\occountdown.tpl on line 163
+2016-12-26 9:51:09 - PHP Notice:  Undefined variable: usethumbslide in D:\xampp\htdocs\Opencart\tt_estore\admin\view\template\extension\module\occountdown.tpl on line 164
+2016-12-26 9:51:09 - PHP Notice:  Undefined variable: entry_thumbslidemode in D:\xampp\htdocs\Opencart\tt_estore\admin\view\template\extension\module\occountdown.tpl on line 169
+2016-12-26 9:51:09 - PHP Notice:  Undefined variable: thumbslidemode in D:\xampp\htdocs\Opencart\tt_estore\admin\view\template\extension\module\occountdown.tpl on line 172
+2016-12-26 9:51:09 - PHP Notice:  Undefined variable: thumbslidemode in D:\xampp\htdocs\Opencart\tt_estore\admin\view\template\extension\module\occountdown.tpl on line 173
+2016-12-26 9:51:38 - PHP Notice:  Undefined variable: entry_usethumbslide in D:\xampp\htdocs\Opencart\tt_estore\admin\view\template\extension\module\occountdown.tpl on line 160
+2016-12-26 9:51:38 - PHP Notice:  Undefined variable: usethumbslide in D:\xampp\htdocs\Opencart\tt_estore\admin\view\template\extension\module\occountdown.tpl on line 163
+2016-12-26 9:51:38 - PHP Notice:  Undefined variable: usethumbslide in D:\xampp\htdocs\Opencart\tt_estore\admin\view\template\extension\module\occountdown.tpl on line 164
+2016-12-26 9:51:38 - PHP Notice:  Undefined variable: entry_thumbslidemode in D:\xampp\htdocs\Opencart\tt_estore\admin\view\template\extension\module\occountdown.tpl on line 169
+2016-12-26 9:51:38 - PHP Notice:  Undefined variable: thumbslidemode in D:\xampp\htdocs\Opencart\tt_estore\admin\view\template\extension\module\occountdown.tpl on line 172
+2016-12-26 9:51:38 - PHP Notice:  Undefined variable: thumbslidemode in D:\xampp\htdocs\Opencart\tt_estore\admin\view\template\extension\module\occountdown.tpl on line 173
+2016-12-26 9:52:25 - PHP Notice:  Undefined variable: usethumbslide in D:\xampp\htdocs\Opencart\tt_estore\admin\view\template\extension\module\occountdown.tpl on line 163
+2016-12-26 9:52:25 - PHP Notice:  Undefined variable: usethumbslide in D:\xampp\htdocs\Opencart\tt_estore\admin\view\template\extension\module\occountdown.tpl on line 164
+2016-12-26 9:52:25 - PHP Notice:  Undefined variable: thumbslidemode in D:\xampp\htdocs\Opencart\tt_estore\admin\view\template\extension\module\occountdown.tpl on line 172
+2016-12-26 9:52:25 - PHP Notice:  Undefined variable: thumbslidemode in D:\xampp\htdocs\Opencart\tt_estore\admin\view\template\extension\module\occountdown.tpl on line 173
+2016-12-26 9:53:33 - PHP Notice:  Undefined index: usethumbslide in D:\xampp\htdocs\Opencart\tt_estore\admin\controller\extension\module\occountdown.php on line 241
+2016-12-26 9:53:33 - PHP Notice:  Undefined index: thumbslidemode in D:\xampp\htdocs\Opencart\tt_estore\admin\controller\extension\module\occountdown.php on line 249
+2016-12-26 9:54:05 - PHP Notice:  Undefined index: usethumbslide in D:\xampp\htdocs\Opencart\tt_estore\admin\controller\extension\module\occountdown.php on line 241
+2016-12-26 9:54:05 - PHP Notice:  Undefined index: thumbslidemode in D:\xampp\htdocs\Opencart\tt_estore\admin\controller\extension\module\occountdown.php on line 249
+2016-12-26 9:54:22 - PHP Notice:  Undefined index: usethumbslide in D:\xampp\htdocs\Opencart\tt_estore\admin\controller\extension\module\occountdown.php on line 241
+2016-12-26 9:54:22 - PHP Notice:  Undefined index: thumbslidemode in D:\xampp\htdocs\Opencart\tt_estore\admin\controller\extension\module\occountdown.php on line 249
+2016-12-26 9:54:46 - PHP Notice:  Undefined index: usethumbslide in D:\xampp\htdocs\Opencart\tt_estore\admin\controller\extension\module\occountdown.php on line 241
+2016-12-26 9:54:46 - PHP Notice:  Undefined index: thumbslidemode in D:\xampp\htdocs\Opencart\tt_estore\admin\controller\extension\module\occountdown.php on line 249
+2016-12-26 9:55:21 - PHP Notice:  Undefined variable: usethumbslide in D:\xampp\htdocs\Opencart\tt_estore\admin\view\template\extension\module\occountdown.tpl on line 163
+2016-12-26 9:55:21 - PHP Notice:  Undefined variable: usethumbslide in D:\xampp\htdocs\Opencart\tt_estore\admin\view\template\extension\module\occountdown.tpl on line 164
+2016-12-26 9:55:21 - PHP Notice:  Undefined variable: thumbslidemode in D:\xampp\htdocs\Opencart\tt_estore\admin\view\template\extension\module\occountdown.tpl on line 172
+2016-12-26 9:55:21 - PHP Notice:  Undefined variable: thumbslidemode in D:\xampp\htdocs\Opencart\tt_estore\admin\view\template\extension\module\occountdown.tpl on line 173
+2016-12-26 9:55:44 - PHP Notice:  Undefined index: usethumbslide in D:\xampp\htdocs\Opencart\tt_estore\admin\controller\extension\module\occountdown.php on line 241
+2016-12-26 9:55:44 - PHP Notice:  Undefined index: thumbslidemode in D:\xampp\htdocs\Opencart\tt_estore\admin\controller\extension\module\occountdown.php on line 249
+2016-12-26 10:18:45 - PHP Notice:  Undefined variable: text_seconds in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\occountdown.tpl on line 10
+2016-12-26 10:18:48 - PHP Notice:  Undefined variable: text_seconds in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore3\template\extension\module\occountdown.tpl on line 10
+2016-12-26 10:20:07 - PHP Notice:  Undefined variable: text_seconds in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore3\template\extension\module\occountdown.tpl on line 10
+2016-12-26 10:21:33 - PHP Notice:  Undefined variable: text_seconds in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore3\template\extension\module\occountdown.tpl on line 10
+2016-12-26 10:22:49 - PHP Notice:  Undefined variable: text_seconds in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore3\template\extension\module\occountdown.tpl on line 10
+2016-12-26 10:23:02 - PHP Notice:  Undefined variable: text_seconds in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore3\template\extension\module\occountdown.tpl on line 10
+2016-12-26 10:24:00 - PHP Notice:  Undefined variable: text_seconds in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore3\template\extension\module\occountdown.tpl on line 10
+2016-12-26 10:24:31 - PHP Notice:  Undefined variable: text_seconds in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore3\template\extension\module\occountdown.tpl on line 10
+2016-12-26 10:26:17 - PHP Notice:  Undefined variable: text_seconds in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore3\template\extension\module\occountdown.tpl on line 10
+2016-12-26 10:27:55 - PHP Notice:  Undefined variable: text_seconds in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore3\template\extension\module\occountdown.tpl on line 10
+2016-12-26 10:29:51 - PHP Notice:  Undefined variable: text_seconds in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore3\template\extension\module\occountdown.tpl on line 10
+2016-12-26 10:30:13 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\occountdown.php on line 185
+2016-12-26 10:35:33 - PHP Notice:  Undefined variable: text_seconds in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore3\template\extension\module\occountdown.tpl on line 10
+2016-12-26 10:36:09 - PHP Notice:  Undefined variable: text_seconds in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\occountdown.tpl on line 10
+2016-12-26 10:36:21 - PHP Notice:  Undefined variable: text_seconds in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore\template\extension\module\occountdown.tpl on line 10
+2016-12-30 3:23:12 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore3\template\extension\module\ocfeatureslider.tpl on line 40
+2016-12-30 3:23:12 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore3\template\extension\module\ocfeatureslider.tpl on line 40
+2016-12-30 3:23:12 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore3\template\extension\module\ocfeatureslider.tpl on line 40
+2016-12-30 3:23:12 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore3\template\extension\module\ocfeatureslider.tpl on line 40
+2016-12-30 3:23:12 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore3\template\extension\module\ocfeatureslider.tpl on line 40
+2016-12-30 3:23:12 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore3\template\extension\module\ocfeatureslider.tpl on line 40
+2016-12-30 3:23:12 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore3\template\extension\module\ocfeatureslider.tpl on line 40
+2016-12-30 3:23:12 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore3\template\extension\module\ocfeatureslider.tpl on line 40
+2016-12-30 3:23:12 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore3\template\extension\module\ocfeatureslider.tpl on line 40
+2016-12-30 3:23:12 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore3\template\extension\module\ocfeatureslider.tpl on line 40
+2016-12-30 3:23:12 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore3\template\extension\module\ocfeatureslider.tpl on line 40
+2016-12-30 3:23:12 - PHP Notice:  Undefined index: tags in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore3\template\extension\module\ocfeatureslider.tpl on line 40
+2016-12-30 3:24:05 - PHP Notice:  Undefined variable: result in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeatureslider.php on line 112
+2016-12-30 3:24:05 - PHP Notice:  Undefined variable: result in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeatureslider.php on line 123
+2016-12-30 3:24:05 - PHP Notice:  Undefined variable: result in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeatureslider.php on line 123
+2016-12-30 3:24:05 - PHP Notice:  Undefined index: tag in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeatureslider.php on line 112
+2016-12-30 3:24:05 - PHP Notice:  Undefined index: tag in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeatureslider.php on line 112
+2016-12-30 3:24:05 - PHP Notice:  Undefined index: tag in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeatureslider.php on line 112
+2016-12-30 3:24:05 - PHP Notice:  Undefined index: tag in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeatureslider.php on line 112
+2016-12-30 3:24:05 - PHP Notice:  Undefined index: tag in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeatureslider.php on line 112
+2016-12-30 3:24:05 - PHP Notice:  Undefined index: tag in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeatureslider.php on line 112
+2016-12-30 3:24:05 - PHP Notice:  Undefined index: tag in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeatureslider.php on line 112
+2016-12-30 3:24:05 - PHP Notice:  Undefined index: tag in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeatureslider.php on line 112
+2016-12-30 3:24:05 - PHP Notice:  Undefined index: tag in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeatureslider.php on line 112
+2016-12-30 3:24:05 - PHP Notice:  Undefined index: tag in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeatureslider.php on line 112
+2016-12-30 3:24:05 - PHP Notice:  Undefined index: tag in D:\xampp\htdocs\Opencart\tt_estore\catalog\controller\extension\module\ocfeatureslider.php on line 112
+2017-01-16 9:52:02 - PHP Notice:  Undefined variable: text_items2 in D:\xampp\htdocs\Opencart\tt_estore\catalog\view\theme\tt_estore2\template\common\cart.tpl on line 2
+2017-01-16 14:11:43 - PHP Notice:  Undefined variable: token in D:\xampp\htdocs\Opencart\tt_estore\admin\view\template\extension\module\ochozmegamenu.tpl on line 184
+2017-01-17 11:01:49 - PHP Notice:  Undefined variable: token in D:\xampp\htdocs\Opencart\tt_estore\admin\view\template\extension\module\ochozmegamenu.tpl on line 184
+2017-01-17 11:04:55 - PHP Notice:  Undefined variable: token in D:\xampp\htdocs\Opencart\tt_estore\admin\view\template\extension\module\ochozmegamenu.tpl on line 184
+2017-01-17 11:05:15 - PHP Notice:  Undefined variable: token in D:\xampp\htdocs\Opencart\tt_estore\admin\view\template\extension\module\ochozmegamenu.tpl on line 184
+2017-01-17 11:06:42 - PHP Notice:  Undefined variable: token in D:\xampp\htdocs\Opencart\tt_estore\admin\view\template\extension\module\ochozmegamenu.tpl on line 184
+2017-01-17 11:08:34 - PHP Notice:  Undefined variable: token in D:\xampp\htdocs\Opencart\tt_estore\admin\view\template\extension\module\ochozmegamenu.tpl on line 184
+2017-01-17 11:08:57 - PHP Notice:  Undefined variable: token in D:\xampp\htdocs\Opencart\tt_estore\admin\view\template\extension\module\ochozmegamenu.tpl on line 184
+2017-04-30 0:03:04 - PHP Notice:  Undefined index: info in /var/www/trading/catalog/controller/extension/module/oc_page_builder.php on line 27
+2017-04-30 0:03:04 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/trading/catalog/controller/extension/module/oc_page_builder.php on line 27
+2017-04-30 0:03:05 - PHP Notice:  Undefined index: info in /var/www/trading/catalog/controller/extension/module/oc_page_builder.php on line 27
+2017-04-30 0:03:05 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/trading/catalog/controller/extension/module/oc_page_builder.php on line 27
+2017-04-30 0:03:10 - PHP Notice:  Undefined index: info in /var/www/trading/catalog/controller/extension/module/oc_page_builder.php on line 27
+2017-04-30 0:03:10 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/trading/catalog/controller/extension/module/oc_page_builder.php on line 27
+2017-04-30 0:03:11 - PHP Notice:  Undefined index: info in /var/www/trading/catalog/controller/extension/module/oc_page_builder.php on line 27
+2017-04-30 0:03:11 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/trading/catalog/controller/extension/module/oc_page_builder.php on line 27
+2017-04-30 0:03:15 - PHP Notice:  Undefined index: info in /var/www/trading/catalog/controller/extension/module/oc_page_builder.php on line 27
+2017-04-30 0:03:15 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/trading/catalog/controller/extension/module/oc_page_builder.php on line 27
+2017-04-30 0:03:43 - PHP Notice:  Undefined index: info in /var/www/trading/catalog/controller/extension/module/oc_page_builder.php on line 27
+2017-04-30 0:03:43 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/trading/catalog/controller/extension/module/oc_page_builder.php on line 27
+2017-04-30 0:03:57 - PHP Notice:  Undefined index: info in /var/www/trading/catalog/controller/extension/module/oc_page_builder.php on line 27
+2017-04-30 0:03:57 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/trading/catalog/controller/extension/module/oc_page_builder.php on line 27
+2017-04-30 11:28:19 - PHP Notice:  Undefined offset: 0 in /var/www/trading/catalog/view/theme/tt_estore/template/extension/module/ocslideshow.tpl on line 8
+2017-04-30 11:28:19 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/occountdown.php on line 40
+2017-04-30 11:28:19 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/octabcategoryslider.php on line 24
+2017-04-30 11:28:19 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocnewproductslider.php on line 18
+2017-04-30 11:28:19 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocspecialproductslider.php on line 17
+2017-04-30 11:28:19 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocmostproduct.php on line 19
+2017-04-30 11:28:19 - PHP Notice:  Undefined offset: 0 in /var/www/trading/catalog/view/theme/tt_estore/template/extension/module/ocslideshow.tpl on line 8
+2017-04-30 11:28:19 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/occountdown.php on line 40
+2017-04-30 11:28:19 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/octabcategoryslider.php on line 24
+2017-04-30 11:28:19 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocnewproductslider.php on line 18
+2017-04-30 11:28:19 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocspecialproductslider.php on line 17
+2017-04-30 11:28:19 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocmostproduct.php on line 19
+2017-04-30 11:28:23 - PHP Notice:  Undefined offset: 0 in /var/www/trading/catalog/view/theme/tt_estore/template/extension/module/ocslideshow.tpl on line 8
+2017-04-30 11:28:23 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/occountdown.php on line 40
+2017-04-30 11:28:23 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/octabcategoryslider.php on line 24
+2017-04-30 11:28:23 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocnewproductslider.php on line 18
+2017-04-30 11:28:23 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocspecialproductslider.php on line 17
+2017-04-30 11:28:23 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocmostproduct.php on line 19
+2017-04-30 11:28:25 - PHP Notice:  Undefined offset: 0 in /var/www/trading/catalog/view/theme/tt_estore/template/extension/module/ocslideshow.tpl on line 8
+2017-04-30 11:28:25 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/occountdown.php on line 40
+2017-04-30 11:28:25 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/octabcategoryslider.php on line 24
+2017-04-30 11:28:26 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocnewproductslider.php on line 18
+2017-04-30 11:28:26 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocspecialproductslider.php on line 17
+2017-04-30 11:28:26 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocmostproduct.php on line 19
+2017-04-30 11:28:27 - PHP Notice:  Undefined offset: 0 in /var/www/trading/catalog/view/theme/tt_estore/template/extension/module/ocslideshow.tpl on line 8
+2017-04-30 11:28:27 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/occountdown.php on line 40
+2017-04-30 11:28:27 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/octabcategoryslider.php on line 24
+2017-04-30 11:28:27 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocnewproductslider.php on line 18
+2017-04-30 11:28:27 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocspecialproductslider.php on line 17
+2017-04-30 11:28:27 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocmostproduct.php on line 19
+2017-04-30 11:28:29 - PHP Notice:  Undefined offset: 0 in /var/www/trading/catalog/view/theme/tt_estore/template/extension/module/ocslideshow.tpl on line 8
+2017-04-30 11:28:29 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/occountdown.php on line 40
+2017-04-30 11:28:29 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/octabcategoryslider.php on line 24
+2017-04-30 11:28:29 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocnewproductslider.php on line 18
+2017-04-30 11:28:29 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocspecialproductslider.php on line 17
+2017-04-30 11:28:29 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocmostproduct.php on line 19
+2017-04-30 11:28:33 - PHP Notice:  Undefined offset: 0 in /var/www/trading/catalog/view/theme/tt_estore/template/extension/module/ocslideshow.tpl on line 8
+2017-04-30 11:28:33 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/occountdown.php on line 40
+2017-04-30 11:28:33 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/octabcategoryslider.php on line 24
+2017-04-30 11:28:34 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocnewproductslider.php on line 18
+2017-04-30 11:28:34 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocspecialproductslider.php on line 17
+2017-04-30 11:28:34 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocmostproduct.php on line 19
+2017-04-30 11:28:39 - PHP Notice:  Undefined offset: 0 in /var/www/trading/catalog/view/theme/tt_estore/template/extension/module/ocslideshow.tpl on line 8
+2017-04-30 11:28:39 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/occountdown.php on line 40
+2017-04-30 11:28:39 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/octabcategoryslider.php on line 24
+2017-04-30 11:28:39 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocnewproductslider.php on line 18
+2017-04-30 11:28:39 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocspecialproductslider.php on line 17
+2017-04-30 11:28:39 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocmostproduct.php on line 19
+2017-04-30 11:33:43 - PHP Notice:  Undefined offset: 0 in /var/www/trading/catalog/view/theme/tt_estore/template/extension/module/ocslideshow.tpl on line 8
+2017-04-30 11:33:43 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/occountdown.php on line 40
+2017-04-30 11:33:43 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/octabcategoryslider.php on line 24
+2017-04-30 11:33:43 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocnewproductslider.php on line 18
+2017-04-30 11:33:43 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocspecialproductslider.php on line 17
+2017-04-30 11:33:43 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocmostproduct.php on line 19
+2017-04-30 11:35:46 - PHP Notice:  Undefined offset: 0 in /var/www/trading/catalog/view/theme/tt_estore/template/extension/module/ocslideshow.tpl on line 8
+2017-04-30 11:35:46 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/occountdown.php on line 40
+2017-04-30 11:35:46 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/octabcategoryslider.php on line 24
+2017-04-30 11:35:46 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocnewproductslider.php on line 18
+2017-04-30 11:35:46 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocspecialproductslider.php on line 17
+2017-04-30 11:35:46 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocmostproduct.php on line 19
+2017-04-30 11:35:57 - PHP Notice:  Undefined offset: 0 in /var/www/trading/catalog/view/theme/tt_estore/template/extension/module/ocslideshow.tpl on line 8
+2017-04-30 11:35:57 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/occountdown.php on line 40
+2017-04-30 11:35:57 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/octabcategoryslider.php on line 24
+2017-04-30 11:35:57 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocnewproductslider.php on line 18
+2017-04-30 11:35:57 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocspecialproductslider.php on line 17
+2017-04-30 11:35:57 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocmostproduct.php on line 19
+2017-04-30 11:41:09 - PHP Notice:  Undefined offset: 0 in /var/www/trading/catalog/view/theme/tt_estore/template/extension/module/ocslideshow.tpl on line 8
+2017-04-30 11:41:09 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/occountdown.php on line 40
+2017-04-30 11:41:09 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/octabcategoryslider.php on line 24
+2017-04-30 11:41:09 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocnewproductslider.php on line 18
+2017-04-30 11:41:09 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocspecialproductslider.php on line 17
+2017-04-30 11:41:09 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocmostproduct.php on line 19
+2017-04-30 11:41:31 - PHP Notice:  Undefined offset: 0 in /var/www/trading/catalog/view/theme/tt_estore/template/extension/module/ocslideshow.tpl on line 8
+2017-04-30 11:41:31 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/occountdown.php on line 40
+2017-04-30 11:41:31 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/octabcategoryslider.php on line 24
+2017-04-30 11:41:31 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocnewproductslider.php on line 18
+2017-04-30 11:41:31 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocspecialproductslider.php on line 17
+2017-04-30 11:41:31 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocmostproduct.php on line 19
+2017-04-30 11:41:32 - PHP Notice:  Undefined offset: 0 in /var/www/trading/catalog/view/theme/tt_estore/template/extension/module/ocslideshow.tpl on line 8
+2017-04-30 11:41:32 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/occountdown.php on line 40
+2017-04-30 11:41:32 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/octabcategoryslider.php on line 24
+2017-04-30 11:41:33 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocnewproductslider.php on line 18
+2017-04-30 11:41:33 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocspecialproductslider.php on line 17
+2017-04-30 11:41:33 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocmostproduct.php on line 19
+2017-04-30 11:41:38 - PHP Notice:  Undefined offset: 0 in /var/www/trading/catalog/view/theme/tt_estore/template/extension/module/ocslideshow.tpl on line 8
+2017-04-30 11:41:38 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/occountdown.php on line 40
+2017-04-30 11:41:38 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/octabcategoryslider.php on line 24
+2017-04-30 11:41:38 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocnewproductslider.php on line 18
+2017-04-30 11:41:38 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocspecialproductslider.php on line 17
+2017-04-30 11:41:38 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocmostproduct.php on line 19
+2017-04-30 11:41:38 - PHP Notice:  Undefined offset: 0 in /var/www/trading/catalog/view/theme/tt_estore/template/extension/module/ocslideshow.tpl on line 8
+2017-04-30 11:41:38 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/occountdown.php on line 40
+2017-04-30 11:41:38 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/octabcategoryslider.php on line 24
+2017-04-30 11:41:38 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocnewproductslider.php on line 18
+2017-04-30 11:41:38 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocspecialproductslider.php on line 17
+2017-04-30 11:41:38 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocmostproduct.php on line 19
+2017-04-30 11:42:03 - PHP Notice:  Undefined offset: 0 in /var/www/trading/catalog/view/theme/tt_estore/template/extension/module/ocslideshow.tpl on line 8
+2017-04-30 11:42:03 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/occountdown.php on line 40
+2017-04-30 11:42:03 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/octabcategoryslider.php on line 24
+2017-04-30 11:42:03 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocnewproductslider.php on line 18
+2017-04-30 11:42:03 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocspecialproductslider.php on line 17
+2017-04-30 11:42:03 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocmostproduct.php on line 19
+2017-04-30 15:32:09 - PHP Notice:  Undefined offset: 0 in /var/www/trading/catalog/view/theme/tt_estore/template/extension/module/ocslideshow.tpl on line 8
+2017-04-30 15:32:09 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/occountdown.php on line 40
+2017-04-30 15:32:09 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/octabcategoryslider.php on line 24
+2017-04-30 15:32:09 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocnewproductslider.php on line 18
+2017-04-30 15:32:09 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocspecialproductslider.php on line 17
+2017-04-30 15:32:09 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocmostproduct.php on line 19
+2017-04-30 15:32:36 - PHP Notice:  Undefined offset: 0 in /var/www/trading/catalog/view/theme/tt_estore/template/extension/module/ocslideshow.tpl on line 8
+2017-04-30 15:32:36 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/occountdown.php on line 40
+2017-04-30 15:32:36 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/octabcategoryslider.php on line 24
+2017-04-30 15:32:36 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocnewproductslider.php on line 18
+2017-04-30 15:32:36 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocspecialproductslider.php on line 17
+2017-04-30 15:32:36 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocmostproduct.php on line 19
+2017-04-30 15:32:38 - PHP Notice:  Undefined offset: 0 in /var/www/trading/catalog/view/theme/tt_estore/template/extension/module/ocslideshow.tpl on line 8
+2017-04-30 15:32:38 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/occountdown.php on line 40
+2017-04-30 15:32:38 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/octabcategoryslider.php on line 24
+2017-04-30 15:32:38 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocnewproductslider.php on line 18
+2017-04-30 15:32:38 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocspecialproductslider.php on line 17
+2017-04-30 15:32:38 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocmostproduct.php on line 19
+2017-04-30 15:33:24 - PHP Notice:  Undefined offset: 0 in /var/www/trading/catalog/view/theme/tt_estore/template/extension/module/ocslideshow.tpl on line 8
+2017-04-30 15:33:24 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/occountdown.php on line 40
+2017-04-30 15:33:24 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/octabcategoryslider.php on line 24
+2017-04-30 15:33:24 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocnewproductslider.php on line 18
+2017-04-30 15:33:24 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocspecialproductslider.php on line 17
+2017-04-30 15:33:24 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocmostproduct.php on line 19
+2017-04-30 15:36:22 - PHP Notice:  Undefined offset: 0 in /var/www/trading/catalog/view/theme/tt_estore/template/extension/module/ocslideshow.tpl on line 8
+2017-04-30 15:36:22 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/occountdown.php on line 40
+2017-04-30 15:36:22 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/octabcategoryslider.php on line 24
+2017-04-30 15:36:22 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocnewproductslider.php on line 18
+2017-04-30 15:36:22 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocspecialproductslider.php on line 17
+2017-04-30 15:36:22 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocmostproduct.php on line 19
+2017-04-30 15:37:16 - PHP Notice:  Undefined offset: 0 in /var/www/trading/catalog/view/theme/tt_estore/template/extension/module/ocslideshow.tpl on line 8
+2017-04-30 15:37:16 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/occountdown.php on line 40
+2017-04-30 15:37:16 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/octabcategoryslider.php on line 24
+2017-04-30 15:37:16 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocnewproductslider.php on line 18
+2017-04-30 15:37:16 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocspecialproductslider.php on line 17
+2017-04-30 15:37:16 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocmostproduct.php on line 19
+2017-04-30 15:43:07 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/occountdown.php on line 40
+2017-04-30 15:43:07 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/octabcategoryslider.php on line 24
+2017-04-30 15:43:07 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocnewproductslider.php on line 18
+2017-04-30 15:43:07 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocspecialproductslider.php on line 17
+2017-04-30 15:43:07 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocmostproduct.php on line 19
+2017-04-30 15:44:06 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/occountdown.php on line 40
+2017-04-30 15:44:06 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/octabcategoryslider.php on line 24
+2017-04-30 15:44:06 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocnewproductslider.php on line 18
+2017-04-30 15:44:06 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocspecialproductslider.php on line 17
+2017-04-30 15:44:06 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocmostproduct.php on line 19
+2017-04-30 22:11:17 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/occountdown.php on line 40
+2017-04-30 22:11:17 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/octabcategoryslider.php on line 24
+2017-04-30 22:11:17 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocnewproductslider.php on line 18
+2017-04-30 22:11:17 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocspecialproductslider.php on line 17
+2017-04-30 22:11:17 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocmostproduct.php on line 19
+2017-04-30 22:13:35 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/occountdown.php on line 40
+2017-04-30 22:13:35 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocnewproductslider.php on line 18
+2017-04-30 22:13:35 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocspecialproductslider.php on line 17
+2017-04-30 22:13:35 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocmostproduct.php on line 19
+2017-04-30 22:14:51 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/occountdown.php on line 40
+2017-04-30 22:14:51 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocspecialproductslider.php on line 17
+2017-04-30 22:14:51 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocmostproduct.php on line 19
+2017-04-30 22:17:35 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/occountdown.php on line 40
+2017-04-30 22:17:35 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocmostproduct.php on line 19
+2017-04-30 22:18:38 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/occountdown.php on line 40
+2017-04-30 22:18:38 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocmostproduct.php on line 19
+2017-04-30 22:19:29 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/occountdown.php on line 40
+2017-04-30 22:24:49 - PHP Notice:  Undefined variable: token in /var/www/trading/admin/view/template/extension/module/ochozmegamenu.tpl on line 184
+2017-05-09 20:57:02 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocrandomslider.php on line 19
+2017-05-09 20:57:06 - PHP Notice:  Undefined index: japan in /var/www/trading/catalog/controller/extension/module/ocrandomslider.php on line 19

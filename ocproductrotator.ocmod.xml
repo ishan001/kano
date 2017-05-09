@@ -1,0 +1,137 @@
+<modification>
+    <name>Product Rotator Image by Plaza Themes</name>
+	<version>1.0</version>
+	<link>http://www.plazathemes.com/</link>
+	<author>Plaza Theme</author>
+	<code>product_rotator</code>
+
+    <!-- Hook into admin product controller -->
+	<file path="admin/controller/catalog/product.php">
+		<operation>
+			<search ><![CDATA[public function index() {]]></search>
+			<add position="after"><![CDATA[
+				/* Product Rotator */
+                $this->load->model('catalog/ocproductrotator');
+        
+                $this->model_catalog_ocproductrotator->installProductRotator();
+			]]></add>
+		</operation>
+        <operation>
+            <search ><![CDATA[$this->load->language('catalog/product');]]></search>
+            <add position="before"><![CDATA[
+                /* Product Rotator */
+                $this->load->language('extension/module/ocproductrotator');
+            ]]></add>
+        </operation>
+        <operation>
+            <search ><![CDATA[$data['entry_image'] = $this->language->get('entry_image');]]></search>
+            <add position="after"><![CDATA[
+				/* Product Rotator */
+                $data['entry_is_rotator'] = $this->language->get('entry_is_rotator');
+			]]></add>
+        </operation>
+        <operation>
+            <search ><![CDATA['sort_order' => $product_image['sort_order']]]></search>
+            <add position="before"><![CDATA[
+                /* Product Rotator */
+                'is_rotator' => $product_image['is_rotator'],
+            ]]></add>
+        </operation>
+	</file>
+
+    <!-- Hook into admin product model -->
+    <file path="admin/model/catalog/product.php">
+        <operation>
+            <search><![CDATA[$this->db->query("INSERT INTO " . DB_PREFIX . "product_image SET product_id = '" . (int)$product_id . "', image = '" . $this->db->escape($product_image['image']) . "', sort_order = '" . (int)$product_image['sort_order'] . "'");]]></search>
+            <add position="replace">
+                <![CDATA[
+                    /* Product Rotator */
+                    $this->db->query("INSERT INTO " . DB_PREFIX . "product_image SET product_id = '" . (int)$product_id . "', image = '" . $this->db->escape($product_image['image']) . "', sort_order = '" . (int)$product_image['sort_order'] . "', is_rotator = '" . (int)$product_image['is_rotator'] . "'");
+                ]]>
+            </add>
+        </operation>
+    </file>
+
+    <!-- Modify admin product form -->
+    <file path="admin/view/template/catalog/product_form.tpl">
+        <operation>
+            <search><![CDATA[<td class="text-right"><?php echo $entry_sort_order; ?></td>]]></search>
+            <add position="after">
+                <![CDATA[
+                    <!-- Product Rotator -->
+                    <td class="text-center"><?php echo $entry_is_rotator; ?></td>
+                ]]>
+            </add>
+        </operation>
+        <operation>
+            <search><![CDATA[<td class="text-left"><button type="button" onclick="$('#image-row<?php echo $image_row; ?>').remove();" data-toggle="tooltip" title="<?php echo $button_remove; ?>" class="btn btn-danger"><i class="fa fa-minus-circle"></i></button></td>]]></search>
+            <add position="before">
+                <![CDATA[
+                    <!-- Product Rotator -->
+                    <td class="text-center">
+                    <select name="product_image[<?php echo $image_row; ?>][is_rotator]" class="form-control rotator-select">
+                      <?php if(isset($product_image['is_rotator']) && (int) $product_image['is_rotator'] == 1): ?>
+                        <option value="1" selected="selected">Yes</option>
+                        <option value="0">No</option>
+                      <?php else: ?>
+                        <option value="1">Yes</option>
+                        <option value="0" selected="selected">No</option>
+                      <?php endif; ?>
+                    </select>
+                    </td>
+                    <!-- End -->
+                ]]>
+            </add>
+        </operation>
+        <operation>
+            <search><![CDATA[function addImage() {]]></search>
+            <add position="before">
+                <![CDATA[
+                    //Product Rotator
+                    $('#tab-image tfoot td:first').attr('colspan', 3);
+                    
+                    $('.rotator-select').change(function() {
+                      var value = $(this).val();
+                      if(value == 1) {
+                        $('.rotator-select').val(0);
+                        $(this).val(1);
+                      }
+                    });
+                    //End
+                ]]>
+            </add>
+        </operation>
+        <operation>
+            <search><![CDATA[$('#images tbody').append(html);]]></search>
+            <add position="after">
+                <![CDATA[
+                    //Product Rotator
+                    $('.rotator-select').change(function() {
+                    var value = $(this).val();
+                    if(value == 1) {
+                      $('.rotator-select').val(0);
+                      $(this).val(1);
+                    }
+                    });
+                    //End
+                ]]>
+            </add>
+        </operation>
+        <operation>
+            <search><![CDATA[html += '  <td class="text-left"><button type="button" onclick="$(\'#image-row' + image_row  + '\').remove();" data-toggle="tooltip" title="<?php echo $button_remove; ?>" class="btn btn-danger"><i class="fa fa-minus-circle"></i></button></td>';]]></search>
+            <add position="before">
+                <![CDATA[
+                    //Product Rotator
+                    html += ' <td class="text-center">';
+                    html += '   <select name="product_image[' + image_row + '][is_rotator]" class="form-control rotator-select">';
+                    html += '     <option value="1">Yes</option>';
+                    html += '     <option value="0" selected="selected">No</option>';
+                    html += '   </select>';
+                    html += ' </td>';
+                    //End
+                ]]>
+            </add>
+        </operation>
+    </file>
+
+</modification>

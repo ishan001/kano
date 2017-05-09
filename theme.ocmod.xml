@@ -1,0 +1,732 @@
+<modification>
+    <name>Storage Modification</name>
+	<version>1.0</version>
+	<link>http://www.plazathemes.com/</link>
+	<author>Plaza Theme</author>
+	<code>tt_estore</code>
+	
+	<file path="admin/model/localisation/language.php">
+		<operation>
+			<search><![CDATA[return $language_id;]]></search>
+			<add position="before"><![CDATA[
+				$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "cmsblock_description WHERE language_id = '" . (int)$this->config->get('config_language_id') . "'");
+
+				foreach ($query->rows as $cmsblock_description) {
+					$this->db->query("INSERT INTO " . DB_PREFIX . "cmsblock_description SET cmsblock_des_id = '" . (int)$cmsblock_description['cmsblock_des_id'] . "', language_id = '" . (int)$language_id . "', cmsblock_id = '" . (int)$cmsblock_description['cmsblock_id'] . "', title = '" . $this->db->escape($cmsblock_description['title']) . "', description = '" . $this->db->escape($cmsblock_description['description']) . "'");
+				}
+				$this->cache->delete('cmsblock_description');
+
+				$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "article_description WHERE language_id = '" . (int)$this->config->get('config_language_id') . "'");
+
+				foreach ($query->rows as $article_description) {
+					$this->db->query("INSERT INTO " . DB_PREFIX . "article_description SET article_id = '" . (int)$article_description['article_id'] . "', language_id = '" . (int)$language_id . "', name = '" . $this->db->escape($article_description['name']) . "', description = '" . $this->db->escape($article_description['description']) . "', intro_text = '" . $this->db->escape($article_description['intro_text']) . "', meta_title = '" . $this->db->escape($article_description['meta_title']) . "', meta_description = '" . $this->db->escape($article_description['meta_description']) . "', meta_keyword = '" . $this->db->escape($article_description['meta_keyword']) . "'");
+				}
+				$this->cache->delete('article_description');
+				
+				$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "ocslideshow_image_description WHERE language_id = '" . (int)$this->config->get('config_language_id') . "'");
+
+				foreach ($query->rows as $ocslideshow_image_description) {
+					$this->db->query("INSERT INTO " . DB_PREFIX . "ocslideshow_image_description SET ocslideshow_image_id = '" . (int)$ocslideshow_image_description['ocslideshow_image_id'] . "', language_id = '" . (int)$language_id . "', ocslideshow_id = '" . (int)$ocslideshow_image_description['ocslideshow_image_id'] . "', description = '" . $this->db->escape($ocslideshow_image_description['description']) . "', title = '" . $this->db->escape($ocslideshow_image_description['title']) . "', sub_title = '" . $this->db->escape($ocslideshow_image_description['sub_title']) . "'");
+				}
+				$this->cache->delete('ocslideshow_image_description');
+			]]></add>
+		</operation>
+
+		<operation>
+		<search><![CDATA[
+			$this->db->query("DELETE FROM " . DB_PREFIX . "option_description WHERE language_id = '" . (int)$language_id . "'");
+		]]></search>
+		<add position="after"><![CDATA[
+			$this->db->query("DELETE FROM " . DB_PREFIX . "cmsblock_description WHERE language_id = '" . (int)$language_id . "'");
+			$this->db->query("DELETE FROM " . DB_PREFIX . "article_description WHERE language_id = '" . (int)$language_id . "'");
+			$this->db->query("DELETE FROM " . DB_PREFIX . "ocslideshow_image_description WHERE language_id = '" . (int)$language_id . "'");
+		]]></add>
+		</operation>
+	</file>
+	
+	<file path="admin/controller/common/header.php">
+        <operation>
+            <search><![CDATA[$data['title'] = $this->document->getTitle();]]></search>
+            <add position="replace"><![CDATA[
+				$data['title'] = strip_tags($this->document->getTitle());
+			]]></add>
+        </operation>
+    </file>
+
+	<file path="admin/controller/design/layout.php">
+		<operation>
+			<search><![CDATA[$data['text_column_right'] = $this->language->get('text_column_right');]]></search>
+			<add position="after"><![CDATA[
+				$data['text_block1'] = $this->language->get('text_block1');
+				$data['text_block2'] = $this->language->get('text_block2');
+				$data['text_block3'] = $this->language->get('text_block3');
+				$data['text_block4'] = $this->language->get('text_block4');
+				$data['text_block5'] = $this->language->get('text_block5');
+				$data['text_block6'] = $this->language->get('text_block6');
+			]]></add>
+		</operation>
+		<operation>
+			<search><![CDATA[$this->response->setOutput($this->load->view('design/layout_form', $data));]]></search>
+			<add position="replace"><![CDATA[
+				$this->response->setOutput($this->load->view('design/layout_plaza_form.tpl', $data));
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="admin/language/en-gb/design/layout.php">
+		<operation>
+			<search><![CDATA[$_['text_column_right']   = 'Column Right';]]></search>
+			<add position="after"><![CDATA[
+				$_['text_block1']   = 'Block 1';
+				$_['text_block2']   = 'Block 2';
+				$_['text_block3']   = 'Block 3';
+				$_['text_block4']   = 'Block 4';
+				$_['text_block5']   = 'Block 5';
+				$_['text_block6']   = 'Block 6';
+			]]></add>
+		</operation>
+	</file>	
+	
+	<file path="catalog/controller/checkout/cart.php">
+		<operation>
+			<search><![CDATA[$json['total'] = sprintf($this->language->get('text_items'), $this->cart->countProducts() + (isset($this->session->data['vouchers']) ? count($this->session->data['vouchers']) : 0), $this->currency->format($total, $this->session->data['currency']));]]></search>
+			<add position="replace"><![CDATA[
+				// $json['total'] = sprintf($this->language->get('text_items'), $this->cart->countProducts() + (isset($this->session->data['vouchers']) ? count($this->session->data['vouchers']) : 0), $this->currency->format($total, $this->session->data['currency']));
+				$data['store_id'] = $this->config->get('config_store_id');
+				
+				if($data['store_id']=='1'){
+					$json['total'] = sprintf($this->language->get('text_items2'), $this->cart->countProducts() + (isset($this->session->data['vouchers']) ? count($this->session->data['vouchers']) : 0), null);
+				} else {
+					$json['total'] = sprintf($this->language->get('text_items'), $this->cart->countProducts() + (isset($this->session->data['vouchers']) ? count($this->session->data['vouchers']) : 0), $this->currency->format($total, $this->session->data['currency']));
+				}
+			]]></add>
+		</operation>
+	</file>	
+	
+	<file path="catalog/controller/common/cart.php">
+		<operation>
+			<search><![CDATA[$data['text_empty'] = $this->language->get('text_empty');]]></search>
+			<add position="after"><![CDATA[
+				$data['text_mycart'] = $this->language->get('text_mycart');
+				$data['text_items2'] = sprintf($this->language->get('text_items2'), $this->cart->countProducts() + (isset($this->session->data['vouchers']) ? count($this->session->data['vouchers']) : 0), null);
+			]]></add>
+		</operation>
+		<operation>
+			<search><![CDATA[$data['products'][] = array(]]></search>
+			<add position="before"><![CDATA[
+				$product['name'] = strlen($product['name']) > 20 ? substr($product['name'],0,20)."..." : $product['name'];
+			]]></add>
+		</operation>
+	</file>	
+	
+	<file path="catalog/controller/extension/module/category.php">
+		<operation>
+			<search><![CDATA[if ($category['category_id'] == $data['category_id']) {]]></search>
+			<add position="replace"><![CDATA[
+				if (true) {
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="catalog/controller/common/header.php">
+		<operation>
+			<search><![CDATA[$data['telephone'] = $this->config->get('config_telephone');]]></search>
+			<add position="after"><![CDATA[
+				$data['block1'] = $this->load->controller('common/block1');			
+				if ($this->customer->isLogged()) {
+					$data['text_message'] = sprintf($this->language->get('text_message2'),$this->customer->getFirstName());
+				} else{
+					$data['text_message'] = sprintf($this->language->get('text_message'),$this->config->get('config_name'));
+				}
+				$data['text_phone'] = $this->language->get('text_phone');
+				$data['text_freeship'] = $this->language->get('text_freeship');
+			]]></add>
+		</operation>
+		<operation>
+			<search><![CDATA[return $this->load->view('common/header', $data);]]></search>
+			<add position="before"><![CDATA[
+				if($this->config->get('ocajaxlogin_status')){
+					$data['use_ajax_login'] = true;
+				}else{
+					$data['use_ajax_login'] = false;
+				}
+			]]></add>
+		</operation>
+	</file>
+	
+	<file path="catalog/controller/common/footer.php">
+		<operation>
+			<search><![CDATA[$data['text_newsletter'] = $this->language->get('text_newsletter');]]></search>
+			<add position="after"><![CDATA[		
+				$data['text_opentime'] = $this->language->get('text_opentime');
+				$data['text_address'] = $this->language->get('text_address');
+				$data['text_phone'] = $this->language->get('text_phone');
+				$data['text_mail'] = $this->language->get('text_mail');
+				$data['text_payment'] = $this->language->get('text_payment');
+				$data['address'] = $this->config->get('config_address');			
+				$data['telephone'] = $this->config->get('config_telephone');			
+				$data['email'] = $this->config->get('config_email');			
+				$data['opentime'] = $this->config->get('config_open');			
+				$data['fax'] = $this->config->get('config_fax');
+				$data['block2'] = $this->load->controller('common/block2');				
+				$data['block3'] = $this->load->controller('common/block3');				
+				$data['block4'] = $this->load->controller('common/block4');				
+				if ($this->request->server['HTTPS']) {
+					$server = $this->config->get('config_ssl');
+				} else {
+					$server = $this->config->get('config_url');
+				}
+				if (is_file(DIR_IMAGE . $this->config->get('config_logo'))) {
+					$data['logo'] = $server . 'image/' . $this->config->get('config_logo');
+				} else {
+					$data['logo'] = '';
+				}
+				$data['name'] = $this->config->get('config_name');
+				$data['home'] = $this->url->link('common/home');
+			]]></add>
+		</operation>
+		<operation>
+			<search><![CDATA['title' => $result['title'],]]></search>
+			<add position="after"><![CDATA[		
+				'short-des' => utf8_substr(strip_tags(html_entity_decode($result['description'], ENT_QUOTES, 'UTF-8')), 0, 300),
+			]]></add>
+		</operation>
+	</file>
+	
+	<file path="catalog/controller/extension/module/carousel.php">
+		<operation>
+			<search><![CDATA[$this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');]]></search>
+			<add position="replace"><![CDATA[
+				//$this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+			]]></add>
+		</operation>
+	</file>
+	
+	<file path="catalog/controller/extension/module/banner.php">
+		<operation>
+			<search><![CDATA[$data['banners'] = array();]]></search>
+			<add position="after"><![CDATA[
+				$this->load->language('module/banner');
+				$data['heading_title'] = $this->language->get('heading_title');
+				$data['heading_title2'] = $this->language->get('heading_title2');
+				$data['text_subtitle'] = $this->language->get('text_subtitle');
+			]]></add>
+		</operation>
+		<operation>
+			<search><![CDATA[$this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');]]></search>
+			<add position="replace"><![CDATA[
+				//$this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
+			]]></add>
+		</operation>
+	</file>
+	
+	<file path="catalog/controller/product/category.php">
+		<operation>
+			<search><![CDATA[foreach ($results as $result) {]]></search>
+			<add position="before"><![CDATA[
+				/* Get new product */
+				$this->load->model('catalog/product');
+		
+				$data['new_products'] = array();
+		
+				$filter_data = array(
+					'sort'  => 'p.date_added',
+					'order' => 'DESC',
+					'start' => 0,
+					'limit' => 10
+				);
+		
+				$new_results = $this->model_catalog_product->getProducts($filter_data);
+				/* End */
+			]]></add>
+		</operation>
+		<operation>
+			<search><![CDATA[$data['products'][] = array(]]></search>
+			<add position="before"><![CDATA[
+				$is_new = false;
+				if ($new_results) { 
+					foreach($new_results as $new_r) {
+						if($result['product_id'] == $new_r['product_id']) {
+							$is_new = true;
+						}
+					}
+				}
+				if (($this->config->get('config_customer_price') && $this->customer->isLogged()) || !$this->config->get('config_customer_price')) {
+					$price_num = $this->tax->calculate($result['price'], $result['tax_class_id'], $this->config->get('config_tax'));
+				} else {
+					$price_num = false;
+				}
+
+				if ((float)$result['special']) {
+					$special_num = $this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax'));
+				} else {
+					$special_num = false;
+				}
+				/// Product Rotator /
+				$product_rotator_status = (int) $this->config->get('ocproductrotator_status');
+				if($product_rotator_status == 1) {
+				 $this->load->model('catalog/ocproductrotator');
+				 $this->load->model('tool/image');
+			 
+				 $product_id = $result['product_id'];
+				 $product_rotator_image = $this->model_catalog_ocproductrotator->getProductRotatorImage($product_id);
+			 
+				 if($product_rotator_image) {
+				  $rotator_image = $this->model_tool_image->resize($product_rotator_image,$this->config->get($this->config->get('config_theme') . '_image_product_width'), $this->config->get($this->config->get('config_theme') . '_image_product_height')); 
+				 } else {
+				  $rotator_image = false;
+				 } 
+				} else {
+				 $rotator_image = false;    
+				}
+				/// End Product Rotator /
+				
+				$data['tags'] = array();
+
+				if ($result['tag']) {
+					$tags = explode(',', $result['tag']);
+
+					foreach ($tags as $tag) {
+						$data['tags'][] = array(
+							'tag'  => trim($tag),
+							'href' => $this->url->link('product/search', 'tag=' . trim($tag))
+						);
+					}
+				}
+				
+				$result['name'] = strlen($result['name']) > 40 ? substr($result['name'],0,40)."..." : $result['name'];
+			]]></add>
+		</operation>
+		<operation>
+			<search><![CDATA[$data['header'] = $this->load->controller('common/header');]]></search>
+			<add position="before"><![CDATA[
+				$data['text_sale'] = $this->language->get('text_sale');
+				$data['text_new'] = $this->language->get('text_new');
+				$data['text_byprice'] = $this->language->get('text_byprice');
+			]]></add>
+		</operation>
+		<operation>
+			<search><![CDATA['product_id'  => $result['product_id'],]]></search>
+			<add position="before"><![CDATA[
+				'is_new'      => $is_new,
+				'rotator_image' => $rotator_image,
+				'price_num'       => $price_num,
+				'special_num'     => $special_num,
+				'tags'		  => $data['tags'],
+			]]></add>
+		</operation>
+	</file>
+	
+	<file path="catalog/controller/product/product.php">
+		<operation>
+			<search><![CDATA[$results = $this->model_catalog_product->getProductRelated($this->request->get['product_id']);]]></search>
+			<add position="before"><![CDATA[
+				/* Get new product */
+				$this->load->model('catalog/product');
+		
+				$data['new_products'] = array();
+		
+				$filter_data = array(
+					'sort'  => 'p.date_added',
+					'order' => 'DESC',
+					'start' => 0,
+					'limit' => 10
+				);
+		
+				$new_results = $this->model_catalog_product->getProducts($filter_data);
+				/* End */
+			]]></add>
+		</operation>
+		<operation>
+			<search><![CDATA[$data['products'][] = array(]]></search>
+			<add position="before"><![CDATA[
+				$is_new = false;
+				if ($new_results) { 
+					foreach($new_results as $new_r) {
+						if($result['product_id'] == $new_r['product_id']) {
+							$is_new = true;
+						}
+					}
+				}
+				if (($this->config->get('config_customer_price') && $this->customer->isLogged()) || !$this->config->get('config_customer_price')) {
+					$price_num = $this->tax->calculate($result['price'], $result['tax_class_id'], $this->config->get('config_tax'));
+				} else {
+					$price_num = false;
+				}
+
+				if ((float)$result['special']) {
+					$special_num = $this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax'));
+				} else {
+					$special_num = false;
+				}
+				/// Product Rotator /
+				$product_rotator_status = (int) $this->config->get('ocproductrotator_status');
+				if($product_rotator_status == 1) {
+				 $this->load->model('catalog/ocproductrotator');
+				 $this->load->model('tool/image');
+			 
+				 $product_id = $result['product_id'];
+				 $product_rotator_image = $this->model_catalog_ocproductrotator->getProductRotatorImage($product_id);
+			 
+				 if($product_rotator_image) {
+				  $rotator_image = $this->model_tool_image->resize($product_rotator_image, $this->config->get($this->config->get('config_theme') . '_image_related_width'), $this->config->get($this->config->get('config_theme') . '_image_related_height')); 
+				 } else {
+				  $rotator_image = false;
+				 } 
+				} else {
+				 $rotator_image = false;    
+				}
+				/// End Product Rotator /
+				
+				$data['tags'] = array();
+
+				if ($result['tag']) {
+					$tags = explode(',', $result['tag']);
+
+					foreach ($tags as $tag) {
+						$data['tags'][] = array(
+							'tag'  => trim($tag),
+							'href' => $this->url->link('product/search', 'tag=' . trim($tag))
+						);
+					}
+				}
+				
+				$result['name'] = strlen($result['name']) > 40 ? substr($result['name'],0,40)."..." : $result['name'];
+			]]></add>
+		</operation>
+		<operation>
+			<search><![CDATA[$data['header'] = $this->load->controller('common/header');]]></search>
+			<add position="before"><![CDATA[
+				$data['text_new'] = $this->language->get('text_new');
+				$data['text_sale'] = $this->language->get('text_sale');
+				$data['text_subtitle'] = $this->language->get('text_subtitle');
+			]]></add>
+		</operation>
+		<operation>
+			<search><![CDATA['rating'      => $rating,]]></search>
+			<add position="after"><![CDATA[
+				'is_new'      => $is_new,
+				'rotator_image' => $rotator_image,
+				'price_num'       => $price_num,
+				'special_num'     => $special_num,
+				'tags'		  => $data['tags'],
+			]]></add>
+		</operation>
+		<operation>
+			<search><![CDATA[$data['header'] = $this->load->controller('common/header');]]></search>
+			<add position="after"><![CDATA[
+				$data['text_sale'] = $this->language->get('text_sale');
+				$data['text_new'] = $this->language->get('text_new');
+				$data['text_byprice'] = $this->language->get('text_byprice');
+			]]></add>
+		</operation>
+		<operation>
+			<search><![CDATA[$data['description'] = html_entity_decode($product_info['description'], ENT_QUOTES, 'UTF-8');]]></search>
+			<add position="after"><![CDATA[
+				$data['short_description'] = utf8_substr(strip_tags(html_entity_decode($product_info['description'], ENT_QUOTES, 'UTF-8')), 0, $this->config->get($this->config->get('config_theme') . '_product_description_length')) . '..';
+			]]></add>
+		</operation>
+	</file>
+	
+	<file path="catalog/controller/product/special.php">
+		<operation>
+			<search><![CDATA[$data['header'] = $this->load->controller('common/header');]]></search>
+			<add position="after"><![CDATA[
+				$data['text_new'] = $this->language->get('text_new');
+				$data['text_sale'] = $this->language->get('text_sale');
+				$data['text_readmore'] = $this->language->get('text_readmore');
+			]]></add>
+		</operation>
+		
+		<operation>
+			<search><![CDATA[$results = $this->model_catalog_product->getProductSpecials($filter_data);]]></search>
+			<add position="after"><![CDATA[
+				/* Get new product */
+				$this->load->model('catalog/product');
+		
+				$data['new_products'] = array();
+		
+				$filter_data = array(
+					'sort'  => 'p.date_added',
+					'order' => 'DESC',
+					'start' => 0,
+					'limit' => 10
+				);
+		
+				$new_results = $this->model_catalog_product->getProducts($filter_data);
+				/* End */
+			]]></add>
+		</operation>
+		
+		<operation>
+			<search><![CDATA[$data['products'][] = array(]]></search>
+			<add position="before"><![CDATA[
+				$is_new = false;
+				if ($new_results) { 
+					foreach($new_results as $new_r) {
+						if($result['product_id'] == $new_r['product_id']) {
+							$is_new = true;
+						}
+					}
+				}
+				if (($this->config->get('config_customer_price') && $this->customer->isLogged()) || !$this->config->get('config_customer_price')) {
+					$price_num = $this->tax->calculate($result['price'], $result['tax_class_id'], $this->config->get('config_tax'));
+				} else {
+					$price_num = false;
+				}
+
+				if ((float)$result['special']) {
+					$special_num = $this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax'));
+				} else {
+					$special_num = false;
+				}
+				/// Product Rotator /
+				$product_rotator_status = (int) $this->config->get('ocproductrotator_status');
+				if($product_rotator_status == 1) {
+				 $this->load->model('catalog/ocproductrotator');
+				 $this->load->model('tool/image');
+			 
+				 $product_id = $result['product_id'];
+				 $product_rotator_image = $this->model_catalog_ocproductrotator->getProductRotatorImage($product_id);
+			 
+				 if($product_rotator_image) {
+				  $rotator_image = $this->model_tool_image->resize($product_rotator_image, $this->config->get($this->config->get('config_theme') . '_image_product_width'), $this->config->get($this->config->get('config_theme') . '_image_product_height')); 
+				 } else {
+				  $rotator_image = false;
+				 } 
+				} else {
+				 $rotator_image = false;    
+				}
+				/// End Product Rotator /
+				
+				$data['tags'] = array();
+
+				if ($result['tag']) {
+					$tags = explode(',', $result['tag']);
+
+					foreach ($tags as $tag) {
+						$data['tags'][] = array(
+							'tag'  => trim($tag),
+							'href' => $this->url->link('product/search', 'tag=' . trim($tag))
+						);
+					}
+				}
+				
+				$result['name'] = strlen($result['name']) > 40 ? substr($result['name'],0,40)."..." : $result['name'];
+			]]></add>
+		</operation>
+		
+		<operation>
+			<search><![CDATA['rating'      => $result['rating'],]]></search>
+			<add position="after"><![CDATA[
+				'is_new'      => $is_new,
+				'rotator_image' => $rotator_image,
+				'price_num'       => $price_num,
+				'special_num'     => $special_num,
+				'tags'		  => $data['tags'],
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="catalog/controller/product/search.php">
+		<operation>
+			<search><![CDATA[$data['header'] = $this->load->controller('common/header');]]></search>
+			<add position="after"><![CDATA[
+				$data['text_sale'] = $this->language->get('text_sale');
+				$data['text_new'] = $this->language->get('text_new');
+				$data['text_byprice'] = $this->language->get('text_byprice');
+				$data['text_readmore'] = $this->language->get('text_readmore');
+			]]></add>
+		</operation>
+		
+		<operation>
+			<search><![CDATA[$results = $this->model_catalog_product->getProducts($filter_data);]]></search>
+			<add position="after"><![CDATA[
+				/* Get new product */
+				$this->load->model('catalog/product');
+		
+				$data['new_products'] = array();
+		
+				$filter_data = array(
+					'sort'  => 'p.date_added',
+					'order' => 'DESC',
+					'start' => 0,
+					'limit' => 10
+				);
+		
+				$new_results = $this->model_catalog_product->getProducts($filter_data);
+				/* End */
+			]]></add>
+		</operation>
+		
+		<operation>
+			<search><![CDATA[$data['products'][] = array(]]></search>
+			<add position="before"><![CDATA[
+				$is_new = false;
+				if ($new_results) { 
+					foreach($new_results as $new_r) {
+						if($result['product_id'] == $new_r['product_id']) {
+							$is_new = true;
+						}
+					}
+				}
+				if (($this->config->get('config_customer_price') && $this->customer->isLogged()) || !$this->config->get('config_customer_price')) {
+					$price_num = $this->tax->calculate($result['price'], $result['tax_class_id'], $this->config->get('config_tax'));
+				} else {
+					$price_num = false;
+				}
+
+				if ((float)$result['special']) {
+					$special_num = $this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax'));
+				} else {
+					$special_num = false;
+				}
+				/// Product Rotator /
+				$product_rotator_status = (int) $this->config->get('ocproductrotator_status');
+				if($product_rotator_status == 1) {
+				 $this->load->model('catalog/ocproductrotator');
+				 $this->load->model('tool/image');
+			 
+				 $product_id = $result['product_id'];
+				 $product_rotator_image = $this->model_catalog_ocproductrotator->getProductRotatorImage($product_id);
+			 
+				 if($product_rotator_image) {
+				  $rotator_image = $this->model_tool_image->resize($product_rotator_image, $this->config->get($this->config->get('config_theme') . '_image_product_width'), $this->config->get($this->config->get('config_theme') . '_image_product_height')); 
+				 } else {
+				  $rotator_image = false;
+				 } 
+				} else {
+				 $rotator_image = false;    
+				}
+				/// End Product Rotator /
+				
+				$data['tags'] = array();
+
+				if ($result['tag']) {
+					$tags = explode(',', $result['tag']);
+
+					foreach ($tags as $tag) {
+						$data['tags'][] = array(
+							'tag'  => trim($tag),
+							'href' => $this->url->link('product/search', 'tag=' . trim($tag))
+						);
+					}
+				}
+				
+				$result['name'] = strlen($result['name']) > 40 ? substr($result['name'],0,40)."..." : $result['name'];
+			]]></add>
+		</operation>
+		
+		<operation>
+			<search><![CDATA['rating'      => $result['rating'],]]></search>
+			<add position="after"><![CDATA[
+				'is_new'      => $is_new,
+				'rotator_image' => $rotator_image,
+				'price_num'       => $price_num,
+				'special_num'     => $special_num,
+				'tags'		  => $data['tags'],
+			]]></add>
+		</operation>
+	</file>
+
+	<file path="catalog/controller/product/manufacturer.php">
+		<operation>
+			<search><![CDATA[$data['header'] = $this->load->controller('common/header');]]></search>
+			<add position="after"><![CDATA[
+				$data['text_sale'] = $this->language->get('text_sale');
+				$data['text_new'] = $this->language->get('text_new');
+				$data['text_byprice'] = $this->language->get('text_byprice');
+				$data['text_readmore'] = $this->language->get('text_readmore');
+			]]></add>
+		</operation>
+		
+		<operation>
+			<search><![CDATA[$results = $this->model_catalog_product->getProducts($filter_data);]]></search>
+			<add position="after"><![CDATA[
+				/* Get new product */
+				$this->load->model('catalog/product');
+		
+				$data['new_products'] = array();
+		
+				$filter_data = array(
+					'sort'  => 'p.date_added',
+					'order' => 'DESC',
+					'start' => 0,
+					'limit' => 10
+				);
+		
+				$new_results = $this->model_catalog_product->getProducts($filter_data);
+				/* End */
+			]]></add>
+		</operation>
+		
+		<operation>
+			<search><![CDATA[$data['products'][] = array(]]></search>
+			<add position="before"><![CDATA[
+				$is_new = false;
+				if ($new_results) { 
+					foreach($new_results as $new_r) {
+						if($result['product_id'] == $new_r['product_id']) {
+							$is_new = true;
+						}
+					}
+				}
+				if (($this->config->get('config_customer_price') && $this->customer->isLogged()) || !$this->config->get('config_customer_price')) {
+					$price_num = $this->tax->calculate($result['price'], $result['tax_class_id'], $this->config->get('config_tax'));
+				} else {
+					$price_num = false;
+				}
+
+				if ((float)$result['special']) {
+					$special_num = $this->tax->calculate($result['special'], $result['tax_class_id'], $this->config->get('config_tax'));
+				} else {
+					$special_num = false;
+				}
+				/// Product Rotator /
+				$product_rotator_status = (int) $this->config->get('ocproductrotator_status');
+				if($product_rotator_status == 1) {
+				 $this->load->model('catalog/ocproductrotator');
+				 $this->load->model('tool/image');
+			 
+				 $product_id = $result['product_id'];
+				 $product_rotator_image = $this->model_catalog_ocproductrotator->getProductRotatorImage($product_id);
+			 
+				 if($product_rotator_image) {
+				  $rotator_image = $this->model_tool_image->resize($product_rotator_image, $this->config->get($this->config->get('config_theme') . '_image_product_width'), $this->config->get($this->config->get('config_theme') . '_image_product_height')); 
+				 } else {
+				  $rotator_image = false;
+				 } 
+				} else {
+				 $rotator_image = false;    
+				}
+				/// End Product Rotator /
+				
+				$data['tags'] = array();
+
+				if ($result['tag']) {
+					$tags = explode(',', $result['tag']);
+
+					foreach ($tags as $tag) {
+						$data['tags'][] = array(
+							'tag'  => trim($tag),
+							'href' => $this->url->link('product/search', 'tag=' . trim($tag))
+						);
+					}
+				}
+				
+				$result['name'] = strlen($result['name']) > 40 ? substr($result['name'],0,40)."..." : $result['name'];
+			]]></add>
+		</operation>
+		
+		<operation>
+			<search><![CDATA['rating'      => $result['rating'],]]></search>
+			<add position="after"><![CDATA[
+				'is_new'      => $is_new,
+				'rotator_image' => $rotator_image,
+				'price_num'       => $price_num,
+				'special_num'     => $special_num,
+				'tags'		  => $data['tags'],
+			]]></add>
+		</operation>
+	</file>
+</modification>

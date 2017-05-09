@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+    <name>Category Thumbnail for v2.3.x by Plaza Themes</name>
+	<version>1.0</version>
+	<link>http://www.plazathemes.com/</link>
+	<author>Plaza Theme</author>
+	<code>category_thumbnail</code>
+
+	<file path="admin/controller/common/column_left.php">
+		<operation>
+			<search><![CDATA[if ($this->user->hasPermission('access', 'catalog/category')) {]]></search>
+			<add position="before"><![CDATA[
+				// Categories
+
+				$categories = array();
+			]]></add>
+		</operation>
+		<operation>
+			<search><![CDATA[if ($this->user->hasPermission('access', 'catalog/category')) {]]></search>
+			<add position="after">
+			<![CDATA[
+				$categories[] = array(
+					'name'	   => $this->language->get('text_category'),
+					'href'     => $this->url->link('catalog/category', 'token=' . $this->session->data['token'], true),
+					'children' => array()
+				);
+
+			}
+
+			$this->load->language('catalog/occategorythumbnail');
+
+			if($this->user->hasPermission('access', 'catalog/occategorythumbnail')) {
+				$categories[] = array(
+					'name'	   => $this->language->get('text_thumbnail'),
+					'href'     => $this->url->link('catalog/occategorythumbnail', 'token=' . $this->session->data['token'], true),
+					'children' => array()
+				);
+			}
+
+			/*		
+			]]>
+			</add>
+		</operation>
+		<operation>
+			<search><![CDATA[if ($this->user->hasPermission('access', 'catalog/product')) {]]></search>
+			<add position="before"><![CDATA[
+				*/
+
+				if($categories) {
+					$catalog[] = array(
+						'name'	   => $this->language->get('text_category'),
+						'href'     => '',
+						'children' => $categories
+					);
+				}
+			]]></add>
+		</operation>
+	</file>
+</modification>

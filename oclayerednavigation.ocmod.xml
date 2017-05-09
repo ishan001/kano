@@ -1,0 +1,101 @@
+<modification>
+    <name>Layered Navigation Ajax by Plaza Themes</name>
+	<version>1.1</version>
+	<link>http://www.plazathemes.com/</link>
+	<author>Plaza Theme</author>
+	<code>layered_navigation</code>
+
+	<file path="catalog/controller/product/category.php">
+		<operation>
+			<search><![CDATA[$this->response->setOutput($this->load->view('product/category', $data));]]></search>
+			<add position="replace"><![CDATA[
+				/* Edit for Layered Navigation Ajax Module by OCMod */
+				$module_status = $this->config->get('oclayerednavigation_status');
+				if($module_status) {
+					$data['oclayerednavigation_loader_img'] = $this->config->get('config_url') . 'image/' . $this->config->get('oclayerednavigation_loader_img');
+                    $this->response->setOutput($this->load->view('extension/module/oclayerednavigation/occategory.tpl', $data));
+				} else {
+                    $this->response->setOutput($this->load->view('product/category', $data));
+                }
+			]]></add>
+		</operation>
+
+        <operation>
+            <search><![CDATA['href' => $this->url->link('product/category', 'path=' . $this->request->get['path'] . '_' . $result['category_id'] . $url)]]></search>
+            <add position="replace"><![CDATA['href'  => $this->config->get('config_url') . 'index.php?route=product/category&path=' . $result['category_id'] . $url]]></add>
+        </operation>
+
+        <operation>
+            <search><![CDATA[$this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=p.sort_order&order=ASC' . $url)]]></search>
+            <add position="replace"><![CDATA[$this->config->get('config_url') . 'index.php?route=product/category&path=' . $category_id . '&sort=p.sort_order&order=ASC' . $url]]></add>
+        </operation>
+
+        <operation>
+            <search><![CDATA[$this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=pd.name&order=ASC' . $url)]]></search>
+            <add position="replace"><![CDATA[$this->config->get('config_url') . 'index.php?route=product/category&path=' . $category_id . '&sort=pd.name&order=ASC' . $url]]></add>
+        </operation>
+
+        <operation>
+            <search><![CDATA[$this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=pd.name&order=DESC' . $url)]]></search>
+            <add position="replace"><![CDATA[$this->config->get('config_url') . 'index.php?route=product/category&path=' . $category_id . '&sort=pd.name&order=DESC' . $url]]></add>
+        </operation>
+
+        <operation>
+            <search><![CDATA[$this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=p.price&order=ASC' . $url)]]></search>
+            <add position="replace"><![CDATA[$this->config->get('config_url') . 'index.php?route=product/category&path=' . $category_id . '&sort=p.price&order=ASC' . $url]]></add>
+        </operation>
+
+        <operation>
+            <search><![CDATA[$this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=p.price&order=DESC' . $url)]]></search>
+            <add position="replace"><![CDATA[$this->config->get('config_url') . 'index.php?route=product/category&path=' . $category_id . '&sort=p.price&order=DESC' . $url]]></add>
+        </operation>
+
+        <operation>
+            <search><![CDATA[$this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=rating&order=DESC' . $url)]]></search>
+            <add position="replace"><![CDATA[$this->config->get('config_url') . 'index.php?route=product/category&path=' . $category_id . '&sort=rating&order=DESC' . $url]]></add>
+        </operation>
+
+        <operation>
+            <search><![CDATA[$this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=rating&order=ASC' . $url)]]></search>
+            <add position="replace"><![CDATA[$this->config->get('config_url') . 'index.php?route=product/category&path=' . $category_id . '&sort=rating&order=ASC' . $url]]></add>
+        </operation>
+
+        <operation>
+            <search><![CDATA[$this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=p.model&order=ASC' . $url)]]></search>
+            <add position="replace"><![CDATA[$this->config->get('config_url') . 'index.php?route=product/category&path=' . $category_id . '&sort=p.model&order=ASC' . $url]]></add>
+        </operation>
+
+        <operation>
+            <search><![CDATA[$this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=p.model&order=DESC' . $url)]]></search>
+            <add position="replace"><![CDATA[$this->config->get('config_url') . 'index.php?route=product/category&path=' . $category_id . '&sort=p.model&order=DESC' . $url]]></add>
+        </operation>
+
+        <operation>
+            <search><![CDATA[$this->url->link('product/category', 'path=' . $this->request->get['path'] . $url . '&limit=' . $value)]]></search>
+            <add position="replace"><![CDATA[$this->config->get('config_url') . 'index.php?route=product/category&path=' . $category_id . $url . '&limit=' . $value]]></add>
+        </operation>
+
+        <operation>
+            <search><![CDATA[$pagination->url = $this->url->link('product/category', 'path=' . $this->request->get['path'] . $url . '&page={page}');]]></search>
+            <add position="replace"><![CDATA[$pagination->url = $this->config->get('config_url') . 'index.php?route=extension/module/oclayerednavigation/category&path=' . $category_id . $url . '&page={page}';]]></add>
+        </operation>
+	</file>
+
+    <file path="catalog/model/catalog/product.php">
+        <operation>
+            <search><![CDATA[if (!empty($data['filter_manufacturer_id'])) {]]></search>
+            <add position="before">
+                <![CDATA[
+                    /* Price range */
+                    if  (!empty($data['filter_price'])) {
+                        $min_price = $data['filter_price']['min_price'];
+                        $max_price = $data['filter_price']['max_price'];
+            
+                        $sql .=  " AND p.price >='". $min_price ."' AND p.price <='". $max_price ."'" ;
+                    }
+                    /* End */
+                ]]>
+            </add>
+        </operation>
+    </file>
+</modification>

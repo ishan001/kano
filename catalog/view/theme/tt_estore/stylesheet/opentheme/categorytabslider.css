@@ -1,0 +1,35 @@
+.tabs-categorys{
+	padding: 0;
+	margin: 0;
+	text-align: right;
+	float: right;
+	margin-top: -38px;
+}
+.tabs-categorys li:last-child{
+	padding: 0;
+}
+.tabs-categorys li.active,
+.tabs-categorys li:hover{
+	color: #3d75b9;
+}
+.tabs-categorys li{
+	list-style: none;
+	display: inline-block;
+	padding-right: 30px;
+	cursor: pointer
+}
+.tabs-categorys + .row{
+	margin: 0 -10px;
+}
+@media(max-width: 560px){
+	.tabs-categorys{
+		margin: 0 0 20px 0;
+		float: none;
+		text-align: center;
+	}
+}
+@media(max-width: 320px){
+	.tabs-categorys li{
+		padding-right: 10px;
+	}
+}

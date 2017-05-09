@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+    <code>oc_blog</code>
+    <name>Blog For Opencart 2.3.x</name>
+    <version>1.0</version>
+    <author>Plaza Theme</author>
+    
+    <file path="admin/controller/common/column_left.php">
+        <operation>
+            <search><![CDATA[
+				if ($this->user->hasPermission('access', 'marketing/marketing')) {
+            ]]></search>
+            <add position="before"><![CDATA[
+                $this->load->language('extension/module/ocblog');
+
+                $blog_menu = array();
+
+                if ($this->user->hasPermission('access', 'blog/article')) {
+                    $blog_menu[] = array(
+                        'name' => $this->language->get('text_blog_article'),
+                        'href' => $this->url->link('blog/article', 'token=' . $this->session->data['token'], true),
+                        'children' => array()
+                    );
+                }
+
+                if ($this->user->hasPermission('access', 'blog/articlelist')) {
+                    $blog_menu[] = array(
+                        'name' => $this->language->get('text_blog_article_list'),
+                        'href' => $this->url->link('blog/articlelist', 'token=' . $this->session->data['token'], true),
+                        'children' => array()
+                    );
+                }
+
+                if($blog_menu) {
+                    $data['menus'][] = array(
+                        'id'       => 'menu-blog',
+                        'icon'     => 'fa-pencil-square-o', 
+                        'name'     => $this->language->get('text_blog'),
+                        'href'     => '',
+                        'children' => $blog_menu
+                    );
+                }
+            ]]></add>
+        </operation>
+    </file>
+
+    <file path="admin/controller/extension/theme/theme_default.php">
+        <operation>
+            <search><![CDATA[$this->load->language('extension/theme/theme_default');]]></search>
+            <add position="before">
+                <![CDATA[
+                    // Blog
+                    $this->load->language('extension/module/ocblog');
+                    // End
+                ]]>
+            </add>
+        </operation>
+
+        <operation>
+            <search><![CDATA[$data['entry_image_related'] = $this->language->get('entry_image_related');]]></search>
+            <add position="before">
+                <![CDATA[
+                    // Blog
+                    $data['entry_image_article'] = $this->language->get('entry_image_article');
+                    $data['entry_image_blog'] = $this->language->get('entry_image_blog');
+                    // End
+                ]]>
+            </add>
+        </operation>
+
+        <operation>
+            <search><![CDATA[if (isset($this->error['image_related'])) {]]></search>
+            <add position="before">
+                <![CDATA[
+                    // Blog
+                    if (isset($this->error['image_article'])) {
+                        $data['error_image_article'] = $this->error['image_article'];
+                    } else {
+                        $data['error_image_article'] = '';
+                    }
+
+                    if (isset($this->error['image_blog'])) {
+                        $data['error_image_blog'] = $this->error['image_blog'];
+                    } else {
+                        $data['error_image_blog'] = '';
+                    }
+                    // End
+                ]]>
+            </add>
+        </operation>
+
+        <operation>
+            <search><![CDATA[if (isset($this->request->post['theme_default_image_related_width'])) {]]></search>
+            <add position="before">
+                <![CDATA[
+                    // Blog
+                    if (isset($this->request->post['theme_default_image_article_width'])) {
+                        $data['theme_default_image_article_width'] = $this->request->post['theme_default_image_article_width'];
+                    } elseif (isset($setting_info['theme_default_image_article_width'])) {
+                        $data['theme_default_image_article_width'] = $this->config->get('theme_default_image_article_width');
+                    } else {
+                        $data['theme_default_image_article_width'] = 400;
+                    }
+
+                    if (isset($this->request->post['theme_default_image_article_height'])) {
+                        $data['theme_default_image_article_height'] = $this->request->post['theme_default_image_article_height'];
+                    } elseif (isset($setting_info['theme_default_image_article_height'])) {
+                        $data['theme_default_image_article_height'] = $this->config->get('theme_default_image_article_height');
+                    } else {
+                        $data['theme_default_image_article_height'] = 400;
+                    }
+
+                    if (isset($this->request->post['theme_default_image_blog_width'])) {
+                        $data['theme_default_image_blog_width'] = $this->request->post['theme_default_image_blog_width'];
+                    } elseif (isset($setting_info['theme_default_image_blog_width'])) {
+                        $data['theme_default_image_blog_width'] = $this->config->get('theme_default_image_blog_width');
+                    } else {
+                        $data['theme_default_image_blog_width'] = 100;
+                    }
+
+                    if (isset($this->request->post['theme_default_image_blog_height'])) {
+                        $data['theme_default_image_blog_height'] = $this->request->post['theme_default_image_blog_height'];
+                    } elseif (isset($setting_info['theme_default_image_blog_height'])) {
+                        $data['theme_default_image_blog_height'] = $this->config->get('theme_default_image_blog_height');
+                    } else {
+                        $data['theme_default_image_blog_height'] = 100;
+                    }
+                    // End
+                ]]>
+            </add>
+        </operation>
+
+        <operation>
+            <search><![CDATA[if (!$this->request->post['theme_default_image_related_width'] || !$this->request->post['theme_default_image_related_height']) {]]></search>
+            <add position="before">
+                <![CDATA[
+                    // Blog
+                    $this->load->language('module/ocblog');
+                    if (!$this->request->post['theme_default_image_article_width'] || !$this->request->post['theme_default_image_article_height']) {
+                        $this->error['image_article'] = $this->language->get('error_image_article');
+                    }
+
+                    if (!$this->request->post['theme_default_image_blog_width'] || !$this->request->post['theme_default_image_blog_height']) {
+                        $this->error['image_blog'] = $this->language->get('error_image_blog');
+                    }
+                    // End
+                ]]>
+            </add>
+        </operation>
+    </file>
+
+    <file path="admin/view/template/extension/theme/theme_default.tpl">
+        <operation>
+            <search><![CDATA[<label class="col-sm-2 control-label" for="input-image-related"><?php echo $entry_image_related; ?></label>]]></search>
+            <add position="before">
+                <![CDATA[
+                    <label class="col-sm-2 control-label" for="input-image-article"><?php echo $entry_image_article; ?></label>
+                    <div class="col-sm-10">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <input type="text" name="theme_default_image_article_width" value="<?php echo $theme_default_image_article_width; ?>" placeholder="<?php echo $entry_width; ?>" id="input-image-article" class="form-control" />
+                        </div>
+                        <div class="col-sm-6">
+                          <input type="text" name="theme_default_image_article_height" value="<?php echo $theme_default_image_article_height; ?>" placeholder="<?php echo $entry_height; ?>" class="form-control" />
+                        </div>
+                      </div>
+                      <?php if ($error_image_article) { ?>
+                      <div class="text-danger"><?php echo $error_image_article; ?></div>
+                      <?php } ?>
+                    </div>
+                  </div>
+                  <div class="form-group required">
+                  <label class="col-sm-2 control-label" for="input-image-blog"><?php echo $entry_image_blog; ?></label>
+                    <div class="col-sm-10">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <input type="text" name="theme_default_image_blog_width" value="<?php echo $theme_default_image_blog_width; ?>" placeholder="<?php echo $entry_width; ?>" id="input-image-blog" class="form-control" />
+                        </div>
+                        <div class="col-sm-6">
+                          <input type="text" name="theme_default_image_blog_height" value="<?php echo $theme_default_image_blog_height; ?>" placeholder="<?php echo $entry_height; ?>" class="form-control" />
+                        </div>
+                      </div>
+                      <?php if ($error_image_blog) { ?>
+                      <div class="text-danger"><?php echo $error_image_blog; ?></div>
+                      <?php } ?>
+                    </div>
+                  </div>
+                  <div class="form-group required">
+                ]]>
+            </add>
+        </operation>
+    </file>
+
+</modification>
