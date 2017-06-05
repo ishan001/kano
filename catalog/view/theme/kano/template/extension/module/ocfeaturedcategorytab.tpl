@@ -53,7 +53,7 @@
 					<?php $products = $category['products']; $i = 0; ?>
 					<?php foreach ($products as $product): ?>
 						<?php  if($count % $rows == 0 ) { echo '<div class="row_items">'; } $count++; ?>
-						<div class="product-layout product-grid">
+						<div class="product-layout product-grid col-md-3">
 							<div class="product-thumb layout2">
 							  <div class="image">
 							  <?php if($config_slide['showlabel']){ ?>

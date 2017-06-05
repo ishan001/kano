@@ -1,9 +1,9 @@
 <modification>
     <name>Storage Modification</name>
 	<version>1.0</version>
-	<link>http://www.plazathemes.com/</link>
-	<author>Plaza Theme</author>
-	<code>tt_estore</code>
+	<link>http://kanotrading.co.jp//</link>
+	<author>Kano Trading</author>
+	<code>kano_trading</code>
 	
 	<file path="admin/model/localisation/language.php">
 		<operation>
