@@ -91,7 +91,7 @@
                             <div class="product-inner">
                                 <div class="product-caption">
                                     <?php if ($product['tags']) { ?>
-                                    <p class="tags-product">
+                                    <p class="tags-product hide-mobile">
                                         <?php for ($i = 0; $i < count($product['tags']); $i++) { ?>
                                         <?php if ($i < (count($product['tags']) - 1)) { ?>
                                         <a href="<?php echo $product['tags'][$i]['href']; ?>"><?php echo $product['tags'][$i]['tag']; ?></a>,
@@ -103,11 +103,11 @@
                                     <?php } ?>
                                     <h2 class="product-name"><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a></h2>
                                     <?php if($config_slide['tab_cate_show_des']) { ?>
-                                    <p class="product-des"><?php echo $product['description']; ?></p>
+                                    <p class="product-des hide-mobile"><?php echo $product['description']; ?></p>
                                     <?php } ?>
 
                                     <?php if (isset($product['rating'])) { ?>
-                                    <div class="ratings">
+                                    <div class="ratings hide-mobile">
                                         <div class="rating-box">
                                             <?php for ($i = 0; $i <= 5; $i++) { ?>
                                             <?php if ($product['rating'] == $i) {
@@ -122,7 +122,7 @@
                                 <?php } ?>
                                 <?php if($config_slide['tab_cate_show_price']) { ?>
                                 <?php if ($product['price']) { ?>
-                                <p class="price">
+                                <p class="price hide-mobile">
                                     <?php if (!$product['special']) { ?>
                                     <?php echo $product['price']; ?>
                                     <?php } else { ?>
@@ -132,7 +132,7 @@
                                 </p>
                                 <?php } ?>
                                 <?php } ?>
-                                <div class="product-intro">
+                                <div class="product-intro hide-mobile">
                                     <div class="actions-link2">
                                         <a class="btn-wishlist" data-toggle="tooltip" title="<?php echo $button_wishlist; ?>" onclick="wishlist.add('<?php echo $product['product_id']; ?>');"><i
                                                     class="icon-heart"></i><span><?php echo $button_wishlist; ?></span></a>
