@@ -49,6 +49,10 @@
     <link href="//fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Poppins:400,600,700" rel="stylesheet">
 
+    <link rel="icon" type="image/x-icon" href="image/catalog/favicon.ico" />
+    <link rel="icon" type="image/png" href="image/catalog/favicon.png" />
+    <link rel="icon" type="image/gif" href="image/catalog/favicon.gif" />
+
     <?php foreach ($styles as $style) { ?>
     <link href="<?php echo $style['href']; ?>" type="text/css" rel="<?php echo $style['rel']; ?>" media="<?php echo $style['media']; ?>"/>
     <?php } ?>

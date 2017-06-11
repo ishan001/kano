@@ -57,7 +57,7 @@
                     <?php foreach ($products as $product){ ?>
 
 
-                    <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="col-md-3 col-sm-4 col-xs-6 product-col">
                         <div class="product-layout product-grid">
                             <div class="product-thumb layout1">
                                 <div class="image">

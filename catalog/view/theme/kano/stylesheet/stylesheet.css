@@ -569,18 +569,22 @@ body:not(.common-home) .newletter-subscribe-container {
     margin-top: 0px;
     border: 1px solid #ddd !important;
     padding: 5px;
+    min-width: 150px;
     width: 100%;
     cursor: pointer;
     top: 100%;
 }
 
 .cate-items li {
-    text-transform: uppercase;
-    color: #333;
-    font-size: 10px;
+    color: #6f6f6f;
+    font-size: 12px;
     list-style: none;
+    border-bottom: 1px solid #f1f1f1;
 }
 
+.cate-items li:last-child {
+    border-bottom: none;
+}
 .cate-items li:hover {
     color: #3c74b9
 }
@@ -1644,6 +1648,20 @@ body:not(.common-home) header:not(.fix-header) .hozmenu-container {
 .product-layout {
     margin-top: 30px;
     float: left;
+
+
+}
+
+@media (min-width:768px) and (max-width: 991px) {
+    .product-col:nth-child(3n+4) {
+        clear: left;
+    }
+}
+
+@media (max-width: 767px) {
+    .product-col:nth-child(2n+3) {
+        clear: left;
+    }
 }
 
 .layout1 .ratings {
@@ -2183,8 +2201,6 @@ button.btn-wishlist:hover {
 }
 
 .col-3 .tab-content {
-    max-height: 300px;
-    min-height: 300px;
     overflow: auto;
     border-left: 2px solid #ebebeb;
     padding: 0 25px;
