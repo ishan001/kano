@@ -429,7 +429,8 @@ html[xmlns] .oc-banner7-container .slides {display: block;}
 .banner7{
   position: relative;
   z-index: 0;
-  margin: 32px 0 30px;
+	margin:0;
+  margin-bottom: 30px;
 }
 .nivo-directionNav i{
 	font-size: 20px;
