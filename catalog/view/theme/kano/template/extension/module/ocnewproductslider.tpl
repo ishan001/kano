@@ -26,7 +26,7 @@
             echo '<div class="row_items">';
         }
         $count++; ?>
-        <div class="product-layout new-product product-grid col-xs-4">
+        <div class="product-layout new-product product-grid col-md-4 col-sm-6 col-xs-12">
             <div class="product-thumb layout2">
                 <div class="image">
                     <a class="product-image" href="<?php echo $product['href']; ?>">
