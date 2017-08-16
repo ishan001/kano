@@ -108,7 +108,7 @@
             <?php if ($manufacturer) { ?>
             <li><?php echo $text_manufacturer; ?> <a href="<?php echo $manufacturers; ?>"><span class="ex-text"><?php echo $manufacturer; ?></span></a></li>
             <?php } ?>
-            <li><?php echo $text_model; ?><span class="ex-text"><?php echo $model; ?></span></li>
+            <!--<li><?php /*echo $text_model; */?><span class="ex-text"><?php /*echo $model; */?></span></li>-->
             <?php if ($reward) { ?>
             <li><?php echo $text_reward; ?><span class="ex-text"><?php echo $reward; ?></span></li>
             <?php } ?>
