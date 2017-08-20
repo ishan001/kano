@@ -12,7 +12,7 @@
     <?php } else { ?>
     <input type="radio" name="payment_method" value="<?php echo $payment_method['code']; ?>" />
     <?php } ?>
-    <?php echo $payment_method['title']; ?>
+    <?php echo $payment_method['title']; ?> / Credit card/ Visa debit
     <?php if ($payment_method['terms']) { ?>
     (<?php echo $payment_method['terms']; ?>)
     <?php } ?>
