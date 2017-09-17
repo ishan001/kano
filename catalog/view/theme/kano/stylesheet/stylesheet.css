@@ -1104,6 +1104,11 @@ body:not(.common-home) header:not(.fix-header) .hozmenu-container {
     display: inline-block;
 }
 
+.banner-footer .list-social-media li {
+    display: inline-block;
+    float: left;
+}
+
 /* featured category tab */
 .featured-category-title {
     display: none;

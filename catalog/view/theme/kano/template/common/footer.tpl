@@ -19,6 +19,9 @@
         </ul>
       </div>
       <?php } ?>
+        <div class="col-sm-3 col-footer">
+
+        </div>
       <div class="col-sm-3 col-footer">
         <div class="title-footer"><?php echo $text_account; ?></div>
         <ul class="list-unstyled text-content">
@@ -28,7 +31,7 @@
           <li><a href="<?php echo $newsletter; ?>"><?php echo $text_newsletter; ?></a></li>
         </ul>
       </div>
-      <div class="col-sm-3 col-footer">
+<!--      <div class="col-sm-3 col-footer">
         <div class="title-footer"><?php echo $text_extra; ?></div>
         <ul class="list-unstyled text-content">
           <li><a href="<?php echo $manufacturer; ?>"><?php echo $text_manufacturer; ?></a></li>
@@ -36,12 +39,24 @@
           <li><a href="<?php echo $affiliate; ?>"><?php echo $text_affiliate; ?></a></li>
           <li><a href="<?php echo $special; ?>"><?php echo $text_special; ?></a></li>
         </ul>
-      </div>
+      </div>-->
     </div>
-    <?php if(isset($block4)){ ?>
-		<?php echo $block4; ?>
-	<?php } ?>
-    <p class="text-powered">
+      <div class="banner-footer col-sm-12">
+          <div class="col-sm-4">
+              <ul class="list-unstyled list-social-media">
+                  <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="https://plus.google.com/"><i class="fa fa-google-plus"></i></a></li>
+              </ul>
+          </div>
+          <div class="col-sm-4">
+
+          </div>
+          <div class="col-sm-4">
+              <img src="image/catalog/cmsblock/payment.png" alt="payment">
+          </div>
+      </div>
+      <p class="text-powered">
 		<?php echo $powered; ?>
 	</p>
 		<ul class="list-unstyled">
