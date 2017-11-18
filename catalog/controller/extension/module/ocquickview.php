@@ -109,11 +109,12 @@ class ControllerExtensionModuleOcquickview extends Controller
 			$data['special'] = false;
 		}
 
-		if ($this->config->get('config_tax')) {
-			$data['tax'] = $this->currency->format((float)$product_info['special'] ? $product_info['special'] : $product_info['price'], $this->session->data['currency']);
-		} else {
-			$data['tax'] = false;
-		}
+        if ($this->config->get('config_tax')) {
+            $productPrice =$product_info['special'] ? $product_info['special'] : $product_info['price'];
+            $data['tax'] = $this->currency->format((float)$this->tax->getTax($productPrice, $product_info['tax_class_id']), $this->session->data['currency']);
+        } else {
+            $data['tax'] = false;
+        }
 
 		$discounts = $this->model_catalog_product->getProductDiscounts($this->request->get['product_id']);
 
@@ -334,11 +335,12 @@ class ControllerExtensionModuleOcquickview extends Controller
 					$data['special'] = false;
 				}
 
-				if ($this->config->get('config_tax')) {
-					$data['tax'] = $this->currency->format((float)$product_info['special'] ? $product_info['special'] : $product_info['price'], $this->session->data['currency']);
-				} else {
-					$data['tax'] = false;
-				}
+                if ($this->config->get('config_tax')) {
+                    $productPrice =$product_info['special'] ? $product_info['special'] : $product_info['price'];
+                    $data['tax'] = $this->currency->format((float)$this->tax->getTax($productPrice, $product_info['tax_class_id']), $this->session->data['currency']);
+                } else {
+                    $data['tax'] = false;
+                }
 
 				$discounts = $this->model_catalog_product->getProductDiscounts($product_id);
 
