@@ -201,7 +201,7 @@ class ModelSaleReturn extends Model {
 				$mail->smtp_timeout = $this->config->get('config_mail_smtp_timeout');
 
 				$mail->setTo($return_query->row['email']);
-				$mail->setFrom($this->config->get('config_email'));
+                $mail->setFrom('no-reply@kanotrading.co.jp');
 				$mail->setSender(html_entity_decode($this->config->get('config_name'), ENT_QUOTES, 'UTF-8'));
 				$mail->setSubject($subject);
 				$mail->setText($message);

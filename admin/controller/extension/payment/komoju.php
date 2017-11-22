@@ -111,6 +111,12 @@ class ControllerExtensionPaymentKomoju extends Controller
             $data['komoju_test'] = $this->config->get('komoju_test');
         }
 
+        if (isset($this->request->post['komoju_order_status_id'])) {
+            $data['komoju_order_status_id'] = $this->request->post['komoju_order_status_id'];
+        } else {
+            $data['komoju_order_status_id'] = $this->config->get('komoju_order_status_id');
+        }
+
         $this->load->model('localisation/order_status');
 
         $data['order_statuses'] = $this->model_localisation_order_status->getOrderStatuses();

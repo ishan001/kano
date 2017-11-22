@@ -247,7 +247,7 @@ class ControllerMarketingContact extends Controller {
 							$mail->smtp_timeout = $this->config->get('config_mail_smtp_timeout');
 
 							$mail->setTo($email);
-							$mail->setFrom($store_email);
+                            $mail->setFrom('no-reply@kanotrading.co.jp');
 							$mail->setSender(html_entity_decode($store_name, ENT_QUOTES, 'UTF-8'));
 							$mail->setSubject(html_entity_decode($this->request->post['subject'], ENT_QUOTES, 'UTF-8'));
 							$mail->setHtml($message);

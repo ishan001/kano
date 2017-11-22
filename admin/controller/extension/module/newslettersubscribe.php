@@ -529,7 +529,7 @@ class ControllerExtensionModuleNewslettersubscribe extends Controller {
 						$mail->port = $this->config->get('config_smtp_port');
 						$mail->timeout = $this->config->get('config_smtp_timeout');				
 						$mail->setTo($email);
-						$mail->setFrom($this->config->get('config_email'));
+                        $mail->setFrom('no-reply@kanotrading.co.jp');
 						$mail->setSender($store_name);
 						$mail->setSubject(html_entity_decode($this->request->post['subject'], ENT_QUOTES, 'UTF-8'));					
 						$mail->setHtml($message);

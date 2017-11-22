@@ -3022,3 +3022,13 @@ button.btn-wishlist:hover {
 .productTabContent .product-thumb {
     padding-top: 20px;
 }
+
+.form-group__field {
+    margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    .form-group__field {
+        margin-bottom: 0;
+    }
+}

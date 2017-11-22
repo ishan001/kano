@@ -19,14 +19,14 @@
         </div>
         <div class="form-group required">
             <label class="col-sm-2 control-label" for="input-cc-expire-date"><?php echo $entry_cc_expire_date; ?></label>
-            <div class="col-sm-3">
+            <div class="col-sm-2 form-group__field">
                 <select name="cc_expire_date_month" id="input-cc-expire-date" class="form-control">
-                    <?php foreach ($months as $month) { ?>
-                    <option value="<?php echo $month['value']; ?>"><?php echo $month['text']; ?></option>
+                    <?php for ($i=1; $i<=12; $i++) { ?>
+                    <option value="<?php echo $i; ?>"><?php echo $i; ?></option>
                     <?php } ?>
                 </select>
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-2">
                 <select name="cc_expire_date_year" class="form-control">
                     <?php foreach ($year_expire as $year) { ?>
                     <option value="<?php echo $year['value']; ?>"><?php echo $year['text']; ?></option>

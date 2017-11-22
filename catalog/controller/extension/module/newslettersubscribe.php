@@ -84,7 +84,7 @@ class ControllerExtensionModuleNewslettersubscribe extends Controller {
 						$mail->port = $this->config->get('config_smtp_port');
 						$mail->timeout = $this->config->get('config_smtp_timeout');				
 						$mail->setTo($this->config->get('config_email'));
-						$mail->setFrom($this->config->get('config_email'));
+                        $mail->setFrom('no-reply@kanotrading.co.jp');
 						$mail->setSender($this->config->get('config_name'));
 						$mail->setSubject($subject);
 						$mail->setHtml($message);
@@ -155,7 +155,7 @@ class ControllerExtensionModuleNewslettersubscribe extends Controller {
 						$mail->port = $this->config->get('config_smtp_port');
 						$mail->timeout = $this->config->get('config_smtp_timeout');				
 						$mail->setTo($this->config->get('config_email'));
-						$mail->setFrom($this->config->get('config_email'));
+                        $mail->setFrom('no-reply@kanotrading.co.jp');
 						$mail->setSender($this->config->get('config_name'));
 						$mail->setSubject($subject);
 						$mail->setHtml($message);
