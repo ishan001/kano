@@ -580,6 +580,7 @@ body:not(.common-home) .newletter-subscribe-container {
     font-size: 12px;
     list-style: none;
     border-bottom: 1px solid #f1f1f1;
+    padding:10px;
 }
 
 .cate-items li:last-child {
