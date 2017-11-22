@@ -68,7 +68,7 @@ class ModelAccountOrder extends Model {
 				'payment_iso_code_2'      => $payment_iso_code_2,
 				'payment_iso_code_3'      => $payment_iso_code_3,
 				'payment_address_format'  => $order_query->row['payment_address_format'],
-				'payment_method'          => $order_query->row['payment_method'],
+				'payment_method'          => strip_tags($order_query->row['payment_method']),
 				'shipping_firstname'      => $order_query->row['shipping_firstname'],
 				'shipping_lastname'       => $order_query->row['shipping_lastname'],
 				'shipping_company'        => $order_query->row['shipping_company'],

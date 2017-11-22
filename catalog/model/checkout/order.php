@@ -195,7 +195,7 @@ class ModelCheckoutOrder extends Model {
 				'payment_iso_code_3'      => $payment_iso_code_3,
 				'payment_address_format'  => $order_query->row['payment_address_format'],
 				'payment_custom_field'    => json_decode($order_query->row['payment_custom_field'], true),
-				'payment_method'          => $order_query->row['payment_method'],
+				'payment_method'          => strip_tags($order_query->row['payment_method']),
 				'payment_code'            => $order_query->row['payment_code'],
 				'shipping_firstname'      => $order_query->row['shipping_firstname'],
 				'shipping_lastname'       => $order_query->row['shipping_lastname'],
@@ -428,7 +428,7 @@ class ModelCheckoutOrder extends Model {
 	
 				$data['order_id'] = $order_id;
 				$data['date_added'] = date($language->get('date_format_short'), strtotime($order_info['date_added']));
-				$data['payment_method'] = $order_info['payment_method'];
+				$data['payment_method'] = strip_tags($order_info['payment_method']);
 				$data['shipping_method'] = $order_info['shipping_method'];
 				$data['email'] = $order_info['email'];
 				$data['telephone'] = $order_info['telephone'];
@@ -544,7 +544,7 @@ class ModelCheckoutOrder extends Model {
 						'option'   => $option_data,
 						'quantity' => $product['quantity'],
 						'price'    => $this->currency->format($product['price'] + ($this->config->get('config_tax') ? $product['tax'] : 0), $order_info['currency_code'], $order_info['currency_value']),
-						'total'    => $this->currency->format($product['total'] + ($this->config->get('config_tax') ? ($product['tax'] * $product['quantity']) : 0), $order_info['currency_code'], $order_info['currency_value'])
+						'total'    => $this->currency->format($product['total'] + ($this->config->get('config_tax') ? ($product['tax'] * $product['quantity']) : 0), $order_info['currency_code'], $order_info['currency_value']),
 					);
 				}
 	

@@ -548,7 +548,7 @@ class ControllerSaleOrder extends Controller {
 			$data['payment_country_id'] = $order_info['payment_country_id'];
 			$data['payment_zone_id'] = $order_info['payment_zone_id'];
 			$data['payment_custom_field'] = $order_info['payment_custom_field'];
-			$data['payment_method'] = $order_info['payment_method'];
+			$data['payment_method'] = strip_tags($order_info['payment_method']);
 			$data['payment_code'] = $order_info['payment_code'];
 
 			$data['shipping_firstname'] = $order_info['shipping_firstname'];
