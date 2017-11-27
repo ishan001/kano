@@ -82,7 +82,7 @@ class ControllerExtensionPaymentKomoju extends Controller {
         $this->load->model('checkout/order');
 
         $order_info = $this->model_checkout_order->getOrder($this->session->data['order_id']);
-        
+
         $request  = 'payment_details[type]=credit_card';
         $request .= '&currency=JPY';
         $request .= '&amount='. urlencode($order_info['total']);

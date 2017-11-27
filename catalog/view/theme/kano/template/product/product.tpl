@@ -79,20 +79,21 @@
 		  
 		  <?php if ($price) { ?>
 			  <ul class="list-unstyled price-product">
-				<?php if (!$special) { ?>
-				<li>
-				  <span><?php echo $price; ?></span>
-				</li>
-				<?php } else { ?>
-				<li><span class="new-price"><?php echo $special; ?></span><span class="old-price"><?php echo $price; ?></span></li>
-				<?php } ?>
+                  <li>
+                      <?php if (!$special) { ?>
+                      <span><?php echo $price; ?></span>
+                      <?php } else { ?>
+                      <span class="new-price"><?php echo $special; ?></span><span class="old-price"><?php echo $price; ?></span>
+                      <?php } ?>
+                      <span style="font-size: 12px;">(<?php echo $text_tax; ?>)</span>
+                </li>
 			  </ul>
 			  <?php } ?>
 			  			 			
 			 <?php if ($price) { ?>
 			  <ul class="list-unstyled">
 				<?php if ($tax) { ?>
-				<li><?php echo $text_tax; ?><span class="ex-text"><?php echo $tax; ?></span></li>
+				<li><span class="ex-text"><?php echo $tax; ?></span></li>
 				<?php } ?>
 				<?php if ($points) { ?>
 				<li><?php echo $text_points; ?><span class="ex-text"><?php echo $points; ?></span></li>
