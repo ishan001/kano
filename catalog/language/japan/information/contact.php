@@ -13,6 +13,7 @@ $_['text_fax']       = 'FAX番号:';
 $_['text_open']      = '営業時間';
 $_['text_comment']   = 'コメント';
 $_['text_success']   = '<p>お客様のお問合せメールは当ストア宛に送信されました！</p>';
+$_['text_store_address'] = '加納 Trading 合同会社. 会社法人等番号<br>〒 444-0204<br>愛知県岡崎市土井町字藤ノ木甲9番地';
 
 // Entry
 $_['entry_name']     = 'お名前:';

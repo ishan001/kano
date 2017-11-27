@@ -12,6 +12,7 @@ $_['text_fax']       = 'Fax';
 $_['text_open']      = 'Opening Times';
 $_['text_comment']   = 'Comments';
 $_['text_success']   = '<p>Your enquiry has been successfully sent to the store owner!</p>';
+$_['text_store_address'] = 'Kano Trading godou kaisha (LLC)<br>9-4 fujinokiko, doi-cho<br>Okazaki city, Aichi<br>japan T 444-0204';
 
 // Entry
 $_['entry_name']     = 'Your Name';

@@ -45,6 +45,7 @@ class ControllerInformationContact extends Controller {
 		$data['text_store'] = $this->language->get('text_store');
 		$data['text_contact'] = $this->language->get('text_contact');
 		$data['text_address'] = $this->language->get('text_address');
+        $data['text_store_address'] = $this->language->get('text_store_address');
 		$data['text_telephone'] = $this->language->get('text_telephone');
 		$data['text_fax'] = $this->language->get('text_fax');
 		$data['text_open'] = $this->language->get('text_open');
