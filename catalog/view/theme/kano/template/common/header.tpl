@@ -66,6 +66,15 @@
     <?php foreach ($analytics as $analytic) { ?>
     <?php echo $analytic; ?>
     <?php } ?>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111389377-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-111389377-1');
+    </script>
 </head>
 <body class="<?php echo $class; ?> home1">
 <nav id="top">
