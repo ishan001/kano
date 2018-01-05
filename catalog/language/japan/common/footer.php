@@ -14,4 +14,4 @@ $_['text_account']      = 'アカウント情報';
 $_['text_order']        = '注文履歴';
 $_['text_wishlist']     = 'ウイッシュリスト';
 $_['text_newsletter']   = 'ニュースレター';
-$_['text_powered']      = 'Powered By <a href="http://www.kanotrading.co.jp">kanotrading.co.jp</a><br /> %s &copy; %s';
+$_['text_powered']      = 'Copyright &copy; <a href="http://kanotrading.co.jp">kanotrading.co.jp</a>. All Rights Reserved %s';
