@@ -1681,6 +1681,12 @@ body:not(.common-home) header:not(.fix-header) .hozmenu-container {
     border-bottom: 2px solid #ebebeb;
 }
 
+@media (min-width:992px) {
+    .product-col:nth-child(4n+5) {
+        clear: left;
+    }
+}
+
 @media (min-width:768px) and (max-width: 991px) {
     .product-col:nth-child(3n+4) {
         clear: left;
@@ -1690,6 +1696,15 @@ body:not(.common-home) header:not(.fix-header) .hozmenu-container {
 @media (max-width: 767px) {
     .product-col:nth-child(2n+3) {
         clear: left;
+    }
+}
+
+@media (max-width: 492px) {
+    .product-col:nth-child(1n+2) {
+        clear: left;
+    }
+    .product-col {
+        width: 100%;
     }
 }
 
