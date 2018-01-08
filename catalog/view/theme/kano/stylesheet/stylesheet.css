@@ -1706,6 +1706,16 @@ body:not(.common-home) header:not(.fix-header) .hozmenu-container {
     .product-col {
         width: 100%;
     }
+
+    .product-col .product-name
+    {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .product-col .price {
+        margin: 0;
+    }
 }
 
 .layout1 .ratings {

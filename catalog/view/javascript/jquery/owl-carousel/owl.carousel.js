@@ -310,7 +310,8 @@ if (typeof Object.create !== "function") {
                 var $this = $(this);
                 $this
                     .css({"width": base.itemWidth})
-                    .data("owl-item", Number(index));
+                    .data("" +
+                    "owl-item", Number(index));
 
                 if (index % base.options.items === 0 || index === lastItem) {
                     if (!(index > lastItem)) {
@@ -325,8 +326,14 @@ if (typeof Object.create !== "function") {
             var base = this,
                 width = base.$owlItems.length * base.itemWidth;
 
+            if (width < 940) {
+                new_width = '100%';
+            } else {
+                new_width = width * 2;
+            }
+            console.log(new_width);
             base.$owlWrapper.css({
-                "width": width * 2,
+                "width": new_width,
                 "left": 0
             });
             base.appendItemsSizes();

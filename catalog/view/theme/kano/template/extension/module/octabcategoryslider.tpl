@@ -107,7 +107,7 @@
                                     <?php } ?>
 
                                     <?php if (isset($product['rating'])) { ?>
-                                    <div class="ratings hide-mobile">
+                                    <div class="ratings">
                                         <div class="rating-box">
                                             <?php for ($i = 0; $i <= 5; $i++) { ?>
                                             <?php if ($product['rating'] == $i) {
@@ -122,7 +122,7 @@
                                 <?php } ?>
                                 <?php if($config_slide['tab_cate_show_price']) { ?>
                                 <?php if ($product['price']) { ?>
-                                <p class="price hide-mobile">
+                                <p class="price">
                                     <?php if (!$product['special']) { ?>
                                     <?php echo $product['price']; ?>
                                     <?php } else { ?>
