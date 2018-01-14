@@ -46,7 +46,7 @@
               <ul class="list-unstyled list-social-media">
                   <li><a href="https://web.facebook.com/KanoTrading/" target="_blank"><i class="fa fa-facebook"></i></a></li>
                   <li><a href="https://twitter.com/KanoTrading" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                  <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                  <li><a href="https://www.instagram.com/kanotrading.co.jp/" target="_blank"><i class="fa fa-instagram"></i></a></li>
               </ul>
           </div>
           <div class="col-sm-4">
