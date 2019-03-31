@@ -73,12 +73,6 @@
 							</div>
 						<?php } ?>
 					<?php } ?>
-					
-					<div class="actions">
-						<button class="button btn-cart" type="button" data-toggle="tooltip" title="<?php echo $button_cart; ?>" onclick="cart.add('<?php echo $product['product_id']; ?>');">
-							<span><span><?php echo $button_cart; ?></span></span>
-						</button>
-					</div>
 				</div><!--des-container-->
 			</div>
 			<div class="col-sm-6 col-xs-12">

@@ -86,13 +86,6 @@
 						  <?php } ?>
 						</p>
 					<?php } ?>
-					<div class="product-intro">
-						<div class="actions-link2">
-							<a class="btn-compare" data-toggle="tooltip" title="<?php echo $button_compare; ?>"  onclick="compare.add('<?php echo $product['product_id']; ?>');"><i class="icon-refresh" aria-hidden="true"></i></a>
-							<a class="btn-cart" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-basket"></i><span class="button"><?php echo $button_cart; ?></span></a>
-							<a class="btn-wishlist" data-toggle="tooltip" title="<?php echo $button_wishlist; ?>"  onclick="wishlist.add('<?php echo $product['product_id']; ?>');"><i class="icon-heart" aria-hidden="true"></i></a>
-						</div>						
-					</div>
 					<?php if(strtotime($product['date_end'])) { ?>
 					<p class="text-hurryup"><?php echo $text_hurryup; ?></p>
 					<div id="Countdown<?php echo $product['product_id']?>" class="box-timer"></div>

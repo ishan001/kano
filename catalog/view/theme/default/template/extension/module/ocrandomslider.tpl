@@ -61,13 +61,6 @@
           </p> <?php } ?>
           <?php } ?>
         </div>
-        <div class="button-group">
-          <?php if($config_slide['f_show_addtocart']) { ?>
-          <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
-          <?php } ?>
-          <button type="button" data-toggle="tooltip" title="<?php echo $button_wishlist; ?>" onclick="wishlist.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-heart"></i></button>
-          <button type="button" data-toggle="tooltip" title="<?php echo $button_compare; ?>" onclick="compare.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-exchange"></i></button>
-        </div>
       </div>
     </div>
      <?php if($count % $rows == 0 || $count == count($products)) { echo '</div>'; }  ?>

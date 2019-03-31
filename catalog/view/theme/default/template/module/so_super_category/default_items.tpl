@@ -80,7 +80,6 @@ if (!empty($child_items)) {
 				<?php if($product_display_add_to_cart == 1)
 				{
 				?>
-					<button type="button" onclick="cart.add('<?php echo $item['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
 				<?php }?>
 				<?php if($product_display_wishlist == 1){
 				?>

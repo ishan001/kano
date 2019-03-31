@@ -95,13 +95,6 @@
 								<div class="item-hover">
 									<div class="actions">
 										<div class="button-group">
-											<div class="cart">
-												<?php if($config_slide['showaddtocart']) { ?>
-													<div class="cart">
-													<button type="button" title="<?php echo $button_cart; ?>" onclick="cart.add('<?php echo $product['product_id']; ?>');"><span><?php echo $button_cart; ?></span></button>
-													</div>
-												<?php } ?>
-											</div>
 											<div class="add-to-links">
 												<div class="wishlist">
 													<button type="button" title="<?php echo $button_wishlist; ?>" onclick="wishlist.add('<?php echo $product['product_id']; ?>');"><span><?php echo $button_wishlist; ?></span></button>

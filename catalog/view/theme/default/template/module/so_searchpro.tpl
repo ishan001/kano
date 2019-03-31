@@ -152,7 +152,7 @@
 						if(json[i]['show_addtocart'] || json[i]['show_addtowishlist'] || json[i]['show_addtocompare'] ){
 							html += '<div class="button-group">';
 							if(json[i]['show_addtocart'])
-								html += '<button type="button" onclick="cart.add(' + json[i]['value'] + ',' + json[i]['minimum'] + ');"><span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span> <i class="fa fa-shopping-cart"></i></button>';
+								html += '';
 							if(json[i]['show_addtowishlist'])
 								html += '<button type="button" data-toggle="tooltip" title="<?php echo $button_wishlist; ?>" onclick="wishlist.add(' + json[i]['value'] + ');"><i class="fa fa-heart"></i></button>';
 							if(json[i]['show_addtocompare'])

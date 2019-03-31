@@ -132,18 +132,6 @@
                                 </p>
                                 <?php } ?>
                                 <?php } ?>
-                                <div class="product-intro hide-mobile">
-                                    <div class="actions-link2">
-                                        <a class="btn-wishlist" data-toggle="tooltip" title="<?php echo $button_wishlist; ?>" onclick="wishlist.add('<?php echo $product['product_id']; ?>');"><i
-                                                    class="icon-heart"></i><span><?php echo $button_wishlist; ?></span></a>
-                                        <?php if($config_slide['tab_cate_show_addtocart']) { ?>
-                                        <a class="btn-cart" data-toggle="tooltip" title="<?php echo $button_cart; ?>" onclick="cart.add('<?php echo $product['product_id']; ?>');"><span class="button"><i
-                                                        class="fa fa-shopping-cart"></i><?php echo $button_cart; ?></span></a>
-                                        <?php } ?>
-                                        <a class="btn-compare" data-toggle="tooltip" title="<?php echo $button_compare; ?>" onclick="compare.add('<?php echo $product['product_id']; ?>');"><i
-                                                    class="icon-refresh"></i><span><?php echo $button_compare; ?></span></a>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>

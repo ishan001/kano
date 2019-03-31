@@ -401,9 +401,6 @@
 				<p class="clearfix clear form-group"></p>
 			   <?php endif;?>
 				<div class="form-group box-info-product form-cart">
-					<div class="cart">
-						<input type="button" data-toggle="tooltip" title="<?php echo $button_cart; ?>" value="<?php echo $button_cart; ?>" data-loading-text="<?php echo $text_loading; ?>" id="button-cart" class="btn btn-mega btn-lg " />
-					</div>
 					<div class="add-to-links wish_comp">
 						<ul class="blank">
 							<li class="wishlist">

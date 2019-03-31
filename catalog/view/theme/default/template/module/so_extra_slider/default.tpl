@@ -119,13 +119,6 @@
 
 										<?php if($display_addtocart || $display_readmore_link || $display_wishlist || $display_compare) { ?>
 											<div class="button-container">
-												<?php if ($display_addtocart == 1) { ?>
-												<button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i>
-													<?php if($nb_column0 != 6) { ?>
-													<span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span>
-													<?php } ?>
-												</button>
-												<?php } ?>
 												<?php if ($display_wishlist == 1) { ?>
 												<button type="button" data-toggle="tooltip" title="<?php echo $button_wishlist; ?>" onclick="wishlist.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-heart"></i></button>
 												<?php } ?>

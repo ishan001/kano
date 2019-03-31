@@ -81,15 +81,6 @@
 						  <?php } ?>
 						</p>
 						<?php } ?>
-					<div class="product-intro">
-						<div class="actions-link">
-							<a class="btn-compare" data-toggle="tooltip" title="<?php echo $button_compare; ?>"  onclick="compare.add('<?php echo $product['product_id']; ?>');"><i class="icon-refresh" aria-hidden="true"></i></a>
-							<?php if($config_slide['f_show_addtocart']) { ?>
-							<a class="btn-cart" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-basket"></i><span class="button"><?php echo $button_cart; ?></span></a>
-							<?php } ?>
-							<a class="btn-wishlist" data-toggle="tooltip" title="<?php echo $button_wishlist; ?>"  onclick="wishlist.add('<?php echo $product['product_id']; ?>');"><i class="icon-heart" aria-hidden="true"></i></a>
-						</div>						
-					</div>
 				</div>
 				
 				</div><!-- product-inner -->
