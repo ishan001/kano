@@ -75,11 +75,6 @@
 										<div class="des"><?php echo $product['description']; ?></div>
 									<?php } ?>
 									<div class="actions">
-										<?php if($config_slide['f_show_addtocart']) { ?>
-											<button class="button btn-cart" type="button" data-toggle="tooltip" title="<?php echo $button_cart; ?>" onclick="cart.add('<?php echo $product['product_id']; ?>');">
-												<span><i class="fa fa-shopping-cart"></i><?php echo $button_cart; ?></span>
-											</button>
-										<?php } ?>
 										<ul class="add-to-links">
 											<li>
 												<a class="link-wishlist fa fa-heart" title="<?php echo $button_wishlist; ?>" data-toggle="tooltip" onclick="wishlist.add('<?php echo $product['product_id']; ?>');">

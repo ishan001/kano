@@ -59,7 +59,6 @@
 					<input type="button" id="plus2" value="&#43;" class="form-control"/>
 				</div>
 				<div class="clearfix"></div>
-				<button class="button" type="button" id="button-cart2" data-loading-text="<?php echo $text_loading; ?>"><span><?php echo $button_cart; ?></span></button>
 				<button class="btn-wishlist" type="button" data-toggle="tooltip" title="<?php echo $button_wishlist; ?>" onclick="addWishlist('<?php echo $product_id; ?>');"><i class="icon-heart"></i></button>
 				<button class="btn-compare" type="button" data-toggle="tooltip" title="<?php echo $button_compare; ?>" onclick="addCompare('<?php echo $product_id; ?>');"><i class="icon-refresh"></i></button>
 			</div> 		  			  

@@ -142,8 +142,8 @@
                     <?php } ?>
                 </div>
             </div>
-            <div class="col-sm-7 search-container"><?php echo $search; ?></div>
-            <div class="col-sm-2 cart-container"><a href="<?php echo $wishlist; ?>" id="wishlist-total" title="<?php echo $text_wishlist; ?>"><i
+            <div class="col-sm-8 search-container"><?php echo $search; ?></div>
+            <div class="col-sm-1 cart-container"><a href="<?php echo $wishlist; ?>" id="wishlist-total" title="<?php echo $text_wishlist; ?>"><i
                             class="icon-heart icons"></i><span><?php echo $text_wishlist; ?></span></a><?php echo $cart; ?></div>
             <div class="clearfix"></div>
             <div class="main-menu">

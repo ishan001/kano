@@ -87,7 +87,7 @@ $class_respl0 = 'preset00-'.$nb_column0.' preset01-'.$nb_column1.' preset02-'.$n
 						?>
 							<div class="button-group">
 							<?php if ($display_add_to_cart) { ?>
-								<button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+
 							<?php } ?>
 							<?php if ($display_wishlist) { ?>
 								<button type="button" data-toggle="tooltip" title="<?php echo $button_wishlist; ?>" onclick="wishlist.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-heart"></i></button>

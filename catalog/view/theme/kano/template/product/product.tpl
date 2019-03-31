@@ -126,7 +126,6 @@
 					<input type="button" id="plus" value="&#43;" class="form-control"/>
 				</div>
 				<div class="clearfix"></div>
-				<button class="button" type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>"><span><?php echo $button_cart; ?></span></button>
 				<button class="button btn-wishlist" type="button" data-toggle="tooltip" title="<?php echo $button_wishlist; ?>" onclick="wishlist.add('<?php echo $product_id; ?>');"><i class="icon-heart"></i><span><?php echo $button_wishlist; ?></span></button>
 				<button class="button btn-compare" type="button" data-toggle="tooltip" title="<?php echo $button_compare; ?>" onclick="compare.add('<?php echo $product_id; ?>');"><i class="icon-refresh"></i><span><?php echo $button_compare; ?></span></button>
 			</div>
@@ -445,12 +444,7 @@
 					  <?php } ?>
 					</p>
 					<?php } ?>
-					<div class="product-intro">	
-						<div class="actions-link2">
-							<a class="btn-wishlist" data-toggle="tooltip" title="<?php echo $button_wishlist; ?>" onclick="wishlist.add('<?php echo $product['product_id']; ?>');"><i class="icon-heart"></i></a>
-							<a class="btn-cart" onclick="cart.add('<?php echo $product['product_id']; ?>');"><span class="button"><?php echo $button_cart; ?></span></a>
-							<a class="btn-compare" data-toggle="tooltip" title="<?php echo $button_compare; ?>" onclick="compare.add('<?php echo $product['product_id']; ?>');"><i class="icon-refresh"></i></a>						
-						</div>
+					<div class="product-intro">
 					</div>
 				  </div>
 				</div>

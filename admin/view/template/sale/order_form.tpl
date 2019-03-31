@@ -394,9 +394,6 @@
                 <div class="col-sm-6 text-left">
                   <button type="button" onclick="$('a[href=\'#tab-customer\']').tab('show');" class="btn btn-default"><i class="fa fa-arrow-left"></i> <?php echo $button_back; ?></button>
                 </div>
-                <div class="col-sm-6 text-right">
-                  <button type="button" id="button-cart" class="btn btn-primary"><i class="fa fa-arrow-right"></i> <?php echo $button_continue; ?></button>
-                </div>
               </div>
             </div>
             <div class="tab-pane" id="tab-payment">
@@ -1804,9 +1801,6 @@ $('#cart').delegate('.btn-primary', 'click', function() {
     });
 });
 
-$('#button-cart').on('click', function() {
-	$('a[href=\'#tab-payment\']').tab('show');
-});
 
 // Payment Address
 $('select[name=\'payment_address\']').on('change', function() {

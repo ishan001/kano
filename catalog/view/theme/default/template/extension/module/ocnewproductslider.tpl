@@ -78,11 +78,6 @@
 								<div class="review-count"><a href="<?php echo $product['href']; ?>"><?php echo $product['reviews']; ?></a></div>
 							</div>
 						<?php } ?>
-						<?php if($config_slide['f_show_addtocart']) { ?>
-							<button class="button btn-cart" type="button" data-toggle="tooltip" title="<?php echo $button_cart; ?>" onclick="cart.add('<?php echo $product['product_id']; ?>');">
-								<span><span><?php echo $button_cart; ?></span></span>
-							</button>
-						<?php } ?>
 					</div><!--des-container-->
 				</div> <!-- item-inner -->
 			</div> <!-- item -->
